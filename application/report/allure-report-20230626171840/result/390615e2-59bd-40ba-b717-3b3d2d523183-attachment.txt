@@ -1,0 +1,2 @@
+INFO     root:test_ui_task.py:62 输入文本：admin
+INFO     root:test_ui_task.py:62 输入文本：admin

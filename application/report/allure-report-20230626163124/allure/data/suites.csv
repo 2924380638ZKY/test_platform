@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Jun 26 16:31:26 CST 2023","Mon Jun 26 16:31:31 CST 2023","5212","application.task_ui","test_ui_task","TestTask","","","登录",""

@@ -1,0 +1,5 @@
+INFO     root:test_ui_task.py:48 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+INFO     root:test_ui_task.py:48 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+INFO     root:test_ui_task.py:61 输入文本：admin
+INFO     root:test_ui_task.py:61 输入文本：admin
+INFO     root:test_ui_task.py:85 断言结果：<re.Match object; span=(33228, 33232), match='安装位置'>

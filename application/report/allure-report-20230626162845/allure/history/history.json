@@ -1,0 +1,1 @@
+{"d753cb8c597868f5930777a8e9c2aa46":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"f130f8c61d7ef5b","status":"broken","statusDetails":"TypeError: string indices must be integers","time":{"start":1687768127265,"stop":1687768128880,"duration":1615}}]}}

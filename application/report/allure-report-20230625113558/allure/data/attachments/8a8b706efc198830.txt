@@ -1,0 +1,2 @@
+INFO     root:test_ui_task.py:49 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+INFO     root:test_ui_task.py:49 点击元素：//*[@id='tab-programUpload']

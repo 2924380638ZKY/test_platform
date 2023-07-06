@@ -1,0 +1,1 @@
+[{"uid":"c587c968aeec6b0","name":"登录","time":{"start":1687772382185,"stop":1687772387393,"duration":5208},"status":"passed","severity":"normal"},{"uid":"71f4e7633c5a33db","name":"删除IPC","time":{"start":1687772379810,"stop":1687772380833,"duration":1023},"status":"broken","severity":"normal"}]

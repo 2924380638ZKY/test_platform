@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 02 11:49:34 CST 2023","Fri Jun 02 11:49:35 CST 2023","1030","application.task_interface","test_interface_task","TestTask","","","新建IPC",""
+"passed","Fri Jun 02 11:49:36 CST 2023","Fri Jun 02 11:49:37 CST 2023","1045","application.task_interface","test_interface_task","TestTask","","","新建IPC",""
+"passed","Fri Jun 02 11:49:35 CST 2023","Fri Jun 02 11:49:36 CST 2023","1038","application.task_interface","test_interface_task","TestTask","","","删除IPC",""
+"passed","Fri Jun 02 11:49:34 CST 2023","Fri Jun 02 11:49:34 CST 2023","11","application.task_interface","test_interface_task","TestTask","","","登录",""
+"passed","Fri Jun 02 11:49:37 CST 2023","Fri Jun 02 11:49:38 CST 2023","1023","application.task_interface","test_interface_task","TestTask","","","删除IPC",""

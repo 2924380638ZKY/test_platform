@@ -1,0 +1,7 @@
+nodeFilePath: application/file_storage/
+loggerConfigPath: application/conf/logger.conf
+nodeHeaderJson: application/conf/header.json
+
+reportPath: application/report/
+reportExecl: application/report/reportexecl/
+

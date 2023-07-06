@@ -1,0 +1,1434 @@
+2023-05-29 17:09:12,798 node.py[line:37] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODUzNTQ5NTMsImlhdCI6MTY4NTM1MTM1MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.2OygO6TqSlRqYRagUIur0IySNhryGh5AmqIwM_yn8H4vir3D_QMFdvIOlilQ0Jk31yZAOWGexDztqdY2FM06Cw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-05-29 17:12:38,484 node.py[line:37] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODUzNTUxNTksImlhdCI6MTY4NTM1MTU1OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.hpGQmF97mqFMh8Yt6UYbYS8JKY92FrQS_v7q6DAAD4rm2I8sw7Vx1XaRL0toU47dV0wVyeLQPP26YuOKYIvdBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-05-29 17:12:38,568 node.py[line:96] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685351559122743141"}
+
+2023-05-29 17:12:38,619 node.py[line:96] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685351559122743141"}
+
+2023-05-29 17:12:43,801 node.py[line:96] INFO {"code":0,"message":"","applicationInfo":{"id":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationId":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationName":"ai/faas/app/conver","tag":"2.0.14.caad8f9f.20230227.test","applicationPackgeName":"ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar","operateTime":{"createTime":"2023-05-29 17:12:44","lastUpdateTime":"2023-05-29 17:12:44"}}}
+
+2023-05-29 17:41:23,082 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-05-29 17:41:24,158 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-05-29 17:41:25,194 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-05-29 17:41:26,206 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-05-29 17:41:28,814 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-05-29 17:41:29,877 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-05-29 17:41:30,952 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-05-29 17:41:32,026 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-05-29 17:41:33,050 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-05-29 17:41:35,066 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-05-29 17:41:36,138 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-05-29 17:41:37,199 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-05-29 17:41:39,175 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-05-29 17:41:40,223 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-05-29 17:41:50,239 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45689, 45693), match='镜像名称'>
+2023-06-01 16:53:35,297 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 16:53:36,399 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 16:53:37,443 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-01 16:53:38,472 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-01 16:53:40,479 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-01 16:53:41,533 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-01 16:53:42,608 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 16:53:43,691 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 16:53:44,710 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33228, 33232), match='安装位置'>
+2023-06-01 16:53:46,726 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-01 16:53:47,787 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-01 16:53:48,845 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-01 16:53:55,249 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-01 16:53:56,284 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-01 16:54:06,299 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45704, 45708), match='镜像名称'>
+2023-06-01 17:01:07,848 node.py[line:37] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTM2NjQsImlhdCI6MTY4NTYxMDA2NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.FWbxLgEFBjDlJT1_QF_5oQouyz7_8UJLHcqe7_ObF6NBb_zOib7-HsDJFFaBGzCBsJszAp0lM481-NSiUwHBBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:01:07,903 node.py[line:96] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610064342748915"}
+
+2023-06-01 17:01:07,949 node.py[line:96] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610064342748915"}
+
+2023-06-01 17:01:11,836 node.py[line:96] INFO {"code":20705,"message":""}
+
+2023-06-01 17:01:32,133 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 17:01:33,204 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 17:01:34,253 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-01 17:01:35,276 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-01 17:01:37,269 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-01 17:01:38,333 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-01 17:01:39,404 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 17:01:40,473 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-01 17:01:41,488 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33228, 33232), match='安装位置'>
+2023-06-01 17:01:43,465 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-01 17:01:44,548 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-01 17:01:45,592 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-01 17:01:47,631 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-01 17:01:48,675 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-01 17:01:58,684 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-01 17:02:07,598 node.py[line:96] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610124035664122"}
+
+2023-06-01 17:02:07,642 node.py[line:96] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610064342748915"}
+
+2023-06-01 17:02:10,841 node.py[line:96] INFO {"code":20705,"message":""}
+
+2023-06-01 17:02:39,204 node.py[line:96] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610155641136408"}
+
+2023-06-01 17:02:39,258 node.py[line:96] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610064342748915"}
+
+2023-06-01 17:02:46,981 node.py[line:96] INFO {"code":20705,"message":""}
+
+2023-06-01 17:05:14,021 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTM5MTAsImlhdCI6MTY4NTYxMDMxMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.bOn6gqebHB44ML4aa-llzP7EqDhCVxjtqKC2e3KSwCAwaO4oDo5FtkFqguFwHfmh5hzR-bm8vImwREhbxI18CA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:05:14,093 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610310530507317"}
+
+2023-06-01 17:05:14,137 node.py[line:97] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610310530507317"}
+
+2023-06-01 17:05:18,443 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:05:40,672 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610337109860095"}
+
+2023-06-01 17:05:40,716 node.py[line:97] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610310530507317"}
+
+2023-06-01 17:05:45,027 node.py[line:97] INFO {"code":0,"message":"","applicationInfo":{"id":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationId":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationName":"ai/faas/app/conver","tag":"2.0.14.caad8f9f.20230227.test","applicationPackgeName":"ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar","operateTime":{"createTime":"2023-06-01 17:05:41","lastUpdateTime":"2023-06-01 17:05:41"}}}
+
+2023-06-01 17:06:30,308 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTM5ODYsImlhdCI6MTY4NTYxMDM4NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.4piphPzq3vEpqBbA9MmgAzTMmp5_hYGONs9SRK-FLl8t_ZvVQLsdDeCr-0OIgI65Jj19NpVeEwttBlKa9EBQBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:06:30,394 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610386829762393"}
+
+2023-06-01 17:06:30,451 node.py[line:97] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610386829762393"}
+
+2023-06-01 17:06:33,794 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:08:07,178 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQwODMsImlhdCI6MTY4NTYxMDQ4MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.XIksYvQbx3td5Emi5iJo8a2EQeE5_tqG7XfDDVlttBrnFSBARVpiN6lYEa1ZYZhNgSHRGJC_uDJbA7JmsWh5BA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:08:07,274 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610483709453891"}
+
+2023-06-01 17:08:07,329 node.py[line:97] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610386829762393"}
+
+2023-06-01 17:08:10,753 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:10:11,835 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQyMDgsImlhdCI6MTY4NTYxMDYwOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.mNN78AhMufyMzeaYFlRBnQy3cOI-UsLme44iXEWDD7Mjl3CQo-SbWdL3hpBXzCWW_ITvnsRCJ8xjNFcmTCxmBw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:10:11,899 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610608335555505"}
+
+2023-06-01 17:10:11,947 node.py[line:97] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610608335555505"}
+
+2023-06-01 17:10:15,438 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:10:45,673 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQyNDIsImlhdCI6MTY4NTYxMDY0MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.4108XD5jJZcU5TBJLRr2Shp4c6b-WMOB99IqGjjZhtO3q_TYPOXp-jEtR5Xiv8Ur_3eGQlT8Jz9zqJZwOBvSBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:10:45,727 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610642163863219"}
+
+2023-06-01 17:10:45,773 node.py[line:97] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610608335555505"}
+
+2023-06-01 17:10:49,190 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:11:55,758 node.py[line:38] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQzMTIsImlhdCI6MTY4NTYxMDcxMiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.jQeJ-qn899HEnMizY1bD99er_Ke6d6zcaI4D5o3BmrIUhRs-xlFMNa6wcLeBe4MpR7w-uqbWpdOysH3gzGU3DQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:11:55,857 node.py[line:97] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610712290415481"}
+
+2023-06-01 17:11:55,927 node.py[line:97] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610608335555505"}
+
+2023-06-01 17:11:59,387 node.py[line:97] INFO {"code":20705,"message":""}
+
+2023-06-01 17:14:04,377 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ0NDAsImlhdCI6MTY4NTYxMDg0MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pcaV1lcLnBr7UB0WHGkitmI1-17ZlIhRDmPHiYaMlsyTXeWpXJcTyCgeLSpldNA665rM9dlP3pnhI_mDptirAA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:14:04,464 node.py[line:98] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610840896459846"}
+
+2023-06-01 17:14:05,536 node.py[line:98] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610840896459846"}
+
+2023-06-01 17:14:10,010 node.py[line:98] INFO {"code":20705,"message":""}
+
+2023-06-01 17:14:48,866 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ0ODUsImlhdCI6MTY4NTYxMDg4NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.y-64MKUTFxDE7zDCM4cdSKXXrgwo8stqFS2g4jEz48SrLTwNTmZl6_OgKPRlgPDsjk9Ed8PcqgwcIUka0ASMBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:14:48,920 node.py[line:98] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685610885352358899"}
+
+2023-06-01 17:14:49,964 node.py[line:98] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685610840896459846"}
+
+2023-06-01 17:14:55,069 node.py[line:98] INFO {"code":20705,"message":""}
+
+2023-06-01 17:17:10,388 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ2MjYsImlhdCI6MTY4NTYxMTAyNiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.DSSx3AJj0lD7ZkuEVfs-MN3W0VFwiXPuXUU_qnrlOpA0MrW4fOQLQa6v1k_JG6NztxCI_H-i_xaUCa4RZ8t_BQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:17:10,472 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611026903607920"}
+
+2023-06-01 17:17:11,529 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611026903607920"}
+
+2023-06-01 17:17:16,349 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:17:52,138 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ2NjgsImlhdCI6MTY4NTYxMTA2OCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.yXvxHFxbtZ_SRY2ROTS2cn1JN9Ubr47mhavGTilkwSBSdRIw2rdEKPISnNXQYy6TmV3eU_RD-hjO22nUzGc2Bw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:17:52,194 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611068625293421"}
+
+2023-06-01 17:17:53,240 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611026903607920"}
+
+2023-06-01 17:17:57,516 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:19:39,839 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ3NzYsImlhdCI6MTY4NTYxMTE3NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.DuqnrEtROBxsN0sLA7Ry6ikQtZGfyvrPS4t9zcprEtQJNd-EeM_aF9xeYssqtPtu0NADCyDhzWrYjFZAgBtmBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:19:39,931 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611176360786995"}
+
+2023-06-01 17:19:45,030 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:22:26,151 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTQ5NDIsImlhdCI6MTY4NTYxMTM0MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.K5OWT-Bvy2G8qFm9dq8aqQ9cMp2aAi20R3hxOVNJdHKO0Fs3Uwu6FWojp7SnDfOstkz3htxCML-y1jlUVLF-BA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:22:26,250 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611342650219696"}
+
+2023-06-01 17:22:27,320 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611342650219696"}
+
+2023-06-01 17:27:31,764 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTUyNDgsImlhdCI6MTY4NTYxMTY0OCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.U0oJNCHgCZo-cFZ_P4n0DWf6c2d7_RbLuArXQAB1I9Uw6T4j97pjRNS_7m6ZvyDyDskeauXGCxNNrLNeIeY2BA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:27:31,825 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611648252517292"}
+
+2023-06-01 17:27:32,883 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-01 17:27:38,388 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:28:55,538 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTUzMzEsImlhdCI6MTY4NTYxMTczMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.sjMUNgOzyHSin4FdoCkndQw2dtlr5sjFnXTvRDSREBpmwzywt_V5z9FVdnPwdy27TUa7Hz00osL4laI3M89nCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:28:55,605 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611732032121222"}
+
+2023-06-01 17:30:20,964 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU0MTcsImlhdCI6MTY4NTYxMTgxNywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.0mOv4Sp_X4QZgWxVanMx2CdbLlcLpYh6f4UxgpbscTyhaI3oxDD89reByiaGHsq414TeB4YUJdaRTpoa1CJfAA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:30:21,014 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611817442748940"}
+
+2023-06-01 17:30:22,083 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611817442748940"}
+
+2023-06-01 17:30:27,094 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:30:58,829 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU0NTUsImlhdCI6MTY4NTYxMTg1NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.AlsPW020jsaraaF72gWxombybPYxfod6hOh83JP9qv4fVLs3_LOE6WVwe5h6cckz-iEE6F15FAaxD-ua5vZ6Ag"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:30:58,904 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611855329141231"}
+
+2023-06-01 17:30:59,963 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611855329141231"}
+
+2023-06-01 17:31:04,537 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:31:49,152 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU1MDUsImlhdCI6MTY4NTYxMTkwNSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.Rq11HjsqTQwzdnVMMk3-bXdZyuriicbl_9VQDs-E4pfmaTYQivLezv6Waw_qtb0pv2yiH9Qtkylp2LAk1DScCg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:31:49,215 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611905639077850"}
+
+2023-06-01 17:31:50,302 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611905639077850"}
+
+2023-06-01 17:31:55,397 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:32:12,000 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU1MjgsImlhdCI6MTY4NTYxMTkyOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.Rk0pSQ8E09vblKdGtCSjH3tga4Adwzdcb0PW9Rb_64lHTbivb0NCWL0V5EgLfgEy2-QMf194XVZ1h5VTKSSQDw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:32:12,074 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685611928498265883"}
+
+2023-06-01 17:32:13,123 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685611905639077850"}
+
+2023-06-01 17:32:17,322 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:34:27,484 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU2NjMsImlhdCI6MTY4NTYxMjA2MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.bL5zJbcuOARKLlrTsDkasnHla_ctY_igX6igxs1PG5xWR6MXp6FfF0xq1zL0GXMuvgR_BS2U520gySNxtdhzBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:34:27,542 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612063965621531"}
+
+2023-06-01 17:34:28,619 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612063965621531"}
+
+2023-06-01 17:34:32,914 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:35:04,677 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU3MDEsImlhdCI6MTY4NTYxMjEwMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.KMO_ffIdZvYc_Rsaa1QIg3GBVg5am6w9OxWt4oEfc7cvkEw4G6c4SsOj9y0Ankf3vhZ09k_j8CV3AIWY9sfYAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:35:04,742 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612101165937581"}
+
+2023-06-01 17:35:05,799 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612063965621531"}
+
+2023-06-01 17:35:10,423 node.py[line:99] INFO {"code":20705,"message":""}
+
+2023-06-01 17:36:49,251 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU4MDUsImlhdCI6MTY4NTYxMjIwNSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.2UgT4V42O9XEvAe2gOSBckTLloqABhziqAt5WeZsirDILsHW8WkW03v4R4wnBCQVoay3lqh6q7P0WCmPmZ-_DA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:36:49,329 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612205751833524"}
+
+2023-06-01 17:36:50,383 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612205751833524"}
+
+2023-06-01 17:36:55,024 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:37:36,275 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU4NTIsImlhdCI6MTY4NTYxMjI1MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.4kBIBoN8PcQushYZZMyc_ry59g7_tvgxq19rHMPvBDyufj4KANuw1HIaDPP-yOhqdUcNWIl9UVgBtFJGWF_EAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:37:36,350 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612252773179086"}
+
+2023-06-01 17:37:37,418 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612205751833524"}
+
+2023-06-01 17:37:42,109 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:38:30,428 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU5MDYsImlhdCI6MTY4NTYxMjMwNiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.ZIMVe6eip9BZZjzyFPTJU71UXcEbM8QtM0wpqzL8r5OouR0mVGEcTDb_0Lez5rVH9HR3HRuK1QnLLbkABf_LAg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:38:30,484 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612306906846264"}
+
+2023-06-01 17:38:31,545 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612306906846264"}
+
+2023-06-01 17:38:35,968 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:38:50,795 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTU5MjcsImlhdCI6MTY4NTYxMjMyNywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.7ZIsjK9sq5zUHEVm3ean3TiRJefUL7rsyrNU5R7Lm66ZkBu72RMAIzE58yyEXRoK1d0Ttw2hY6L-JpVP2XfIDw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:38:50,848 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612327270727765"}
+
+2023-06-01 17:38:51,909 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612306906846264"}
+
+2023-06-01 17:38:56,207 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:41:26,207 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTYwODIsImlhdCI6MTY4NTYxMjQ4MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.BtuFzaNLO0gat-hR-Wb-AY_bxOgB_IrC1_LkMe3JSLUp0RlRW8spM9Zjkyf8MGp2OLgU8Te78fw4UoRd0vAcDg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:41:26,304 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612482724982170"}
+
+2023-06-01 17:41:27,373 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612482724982170"}
+
+2023-06-01 17:41:31,641 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:41:57,864 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTYxMTQsImlhdCI6MTY4NTYxMjUxNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.1E36JCIBUWBc6b4xfwPuJpqbprRg_hpYngy4xFyJSyYgKzLvcG8BTpvkfQ4a_HJBG19-kxHgEKzton7hmXjeCg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:41:57,922 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612514345156371"}
+
+2023-06-01 17:41:58,985 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612482724982170"}
+
+2023-06-01 17:42:03,661 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:42:34,344 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTYxNTAsImlhdCI6MTY4NTYxMjU1MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.BCIHMU1ji1HGJYUWAKfGB85JMLnNl5n0FMZ1-CIetRxKzRsjGdVy0EnOiFmCgCRO-3IssODCTzLZrUazZ4fPDw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:42:34,405 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612550825796136"}
+
+2023-06-01 17:42:35,470 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612550825796136"}
+
+2023-06-01 17:42:39,834 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:42:55,481 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTYxNzEsImlhdCI6MTY4NTYxMjU3MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.6ZRaRSRAzBw2pJ4AGou2IxGA_500Dh-hdSXvxHY5enotnHepGJ8Ks2cPiCdova5FmqeM9JCP2kDm2kM1rNjGAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:42:55,539 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685612571959052783"}
+
+2023-06-01 17:42:56,604 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685612550825796136"}
+
+2023-06-01 17:43:00,894 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-01 17:53:18,869 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTY3OTUsImlhdCI6MTY4NTYxMzE5NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.z3hRzvUPoH0NIuwZmGJpvaMuJ4sb8xqNm52sKJbgVFqKYnOMwfaHyejP8BGAPx1_xPdyujcn1pDr5FQBOr_JDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:53:18,949 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685613195365480635"}
+
+2023-06-01 17:53:20,018 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685613195365480635"}
+
+2023-06-01 17:53:24,866 node.py[line:101] INFO {"code":20705,"message":""}
+
+2023-06-01 17:54:24,368 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2MTY4NjAsImlhdCI6MTY4NTYxMzI2MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.OCvmWx0X10Afs0mb_GHp9zvKfBmYeXnBweqpJJrLitc1gPahmjKp_RzEeGn9tXPuvVpzExx78Yf2ySVnjpA8CA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-01 17:54:24,450 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685613260866089766"}
+
+2023-06-01 17:54:25,526 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685613260866089766"}
+
+2023-06-01 17:54:30,123 node.py[line:100] INFO {"code":20705,"message":""}
+
+2023-06-02 09:24:01,026 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzI2MzcsImlhdCI6MTY4NTY2OTAzNywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.bF6PMyBYNQC9AIKdl36iEODifiUcI-ltCWBEvy7sXKwQHK_iNpCqPk4vPpRe9UYeQpy4pS3GUs7x8RsEVKU2DA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:24:01,106 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669037077952470"}
+
+2023-06-02 09:24:02,164 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669037077952470"}
+
+2023-06-02 09:24:03,231 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669039203094449"}
+
+2023-06-02 09:24:04,298 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669039203094449"}
+
+2023-06-02 09:25:04,525 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzI3MDAsImlhdCI6MTY4NTY2OTEwMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.qvGRtS1KPHAjPGjjVN9hNZuxK1kFtZsY6TZm9wyuaJZzuqPiRWGtoBaOG7IHDT5jxCGFcwR3X6sdx5Dw5p6dDw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:25:04,598 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669100570913649"}
+
+2023-06-02 09:25:05,664 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669037077952470"}
+
+2023-06-02 09:25:07,010 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669102981842368"}
+
+2023-06-02 09:25:08,073 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669039203094449"}
+
+2023-06-02 09:26:47,911 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzI4MDMsImlhdCI6MTY4NTY2OTIwMywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.viE0hKncN8_EzY5jHl4dDj8DE8uwtey-Eekp4l5QB843aCI0R783iyCYDI8nSIzEl3BU2n1yM2axyK76gJ1yCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:26:47,976 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669203947282538"}
+
+2023-06-02 09:26:49,041 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669203947282538"}
+
+2023-06-02 09:26:50,092 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669206063391845"}
+
+2023-06-02 09:26:51,156 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669206063391845"}
+
+2023-06-02 09:27:41,959 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzI4NTcsImlhdCI6MTY4NTY2OTI1NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.kE7ILLUfEg3Q2AoKwLJmYRokOXjnfOYEH630TrVvfO41BDcIkJ0iE1kTJc_YvoMsiIBghvz52BeXzmG0FGKCDg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:27:42,020 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669257990849661"}
+
+2023-06-02 09:27:43,081 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669203947282538"}
+
+2023-06-02 09:27:44,440 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685669260409999976"}
+
+2023-06-02 09:27:45,482 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685669206063391845"}
+
+2023-06-02 09:42:56,407 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzM3NzIsImlhdCI6MTY4NTY3MDE3MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.ljrzJht-iHhqIMmvMSXFWQntzY9N4cp2Uul9EuitpIVSvnU64xqKpWL3HDA0JG6C7mih7G74nICo7BS6_o0PAg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:42:56,490 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:42:57,553 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:42:58,651 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:42:59,701 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:43:17,099 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzM3OTMsImlhdCI6MTY4NTY3MDE5MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.MMwXeu1ACX4FLFWCku7voRRcNcbSN_vqNnnyin1eTiRjkFdE09wPoSFWroYWVXVrvf5gcmmeYZ-F05OCtkShAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:43:17,152 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670193115846327"}
+
+2023-06-02 09:43:18,213 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:43:19,570 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670195534361522"}
+
+2023-06-02 09:43:20,809 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:45:03,107 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzM4OTksImlhdCI6MTY4NTY3MDI5OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.LdCJjZqCPqceGM3LzXsrDDeoafasSvrPbFvK3vEY1shF8bxjBxpd_37Y1p2jHM1BIiSL9EJmvrKTxAskiTxNCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:45:03,183 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670299146838997"}
+
+2023-06-02 09:45:04,240 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:45:05,295 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670301259416668"}
+
+2023-06-02 09:45:06,361 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:46:25,931 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzM5ODEsImlhdCI6MTY4NTY3MDM4MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.2G5bUlkXqKGZNGqBX0WqOZa18ffDl0Xn46gCnuSOmFttZKQbaCNhFvC3dkSWnjmn3qWdLyDvpNHl1gCYjEWlCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:46:26,037 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670381999884679"}
+
+2023-06-02 09:46:27,089 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:46:36,346 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670392309149767"}
+
+2023-06-02 09:46:37,406 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:47:28,470 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:47:29,544 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:47:30,594 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 09:47:31,609 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 09:47:33,616 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 09:47:34,687 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 09:47:35,770 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:47:36,842 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:47:37,859 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33260, 33264), match='安装位置'>
+2023-06-02 09:47:39,837 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 09:47:40,896 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 09:47:41,941 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 09:47:48,980 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 09:47:50,021 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 09:48:00,030 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 09:48:14,001 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:48:15,078 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:48:16,120 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 09:48:17,137 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 09:48:19,148 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 09:48:20,207 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 09:48:21,280 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:48:22,358 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 09:48:23,377 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 09:48:25,388 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 09:48:26,447 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 09:48:27,506 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 09:48:29,671 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 09:48:30,720 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 09:48:40,740 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 09:48:47,187 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQxMjMsImlhdCI6MTY4NTY3MDUyMywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.PHXzB3D_Zj7UKpHEBZBOzL5HG6Fa09zWEVxD0Kn6byn4q9GR4nwFJPwzwVJcJUKw1KvapCjLQNg5WPmWC-XUDg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:48:47,238 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670523203409870"}
+
+2023-06-02 09:48:48,301 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670172455366679"}
+
+2023-06-02 09:48:49,370 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670525332274776"}
+
+2023-06-02 09:48:50,440 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670174615422857"}
+
+2023-06-02 09:51:03,188 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQyNTksImlhdCI6MTY4NTY3MDY1OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.1SIg24r8sDq_f9ZNGRQE2EJCUB1O_ZH2S7EV6tJx15_wL40LLq_CgodlIIPdFw9w13F2g_fk6GCDNGBIAvFGAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:51:03,284 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670659244511147"}
+
+2023-06-02 09:51:04,357 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670659244511147"}
+
+2023-06-02 09:51:05,417 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670661377830139"}
+
+2023-06-02 09:51:06,464 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670661377830139"}
+
+2023-06-02 09:51:57,028 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQzMTIsImlhdCI6MTY4NTY3MDcxMiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.JNtPlW2vR7m5327FhCHoahZIy3-bWlMpgtKfx2Ha2pWT-ftWPWQD--03r2LvHkTUdS84hLWXM88xfqKxe1LACA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:51:57,109 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670713067772756"}
+
+2023-06-02 09:51:58,168 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670713067772756"}
+
+2023-06-02 09:51:59,233 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670715193253858"}
+
+2023-06-02 09:52:00,298 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670715193253858"}
+
+2023-06-02 09:52:18,572 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQzMzQsImlhdCI6MTY4NTY3MDczNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.IYTZdPMXgxU9GVgLp33wozXSn8OqMjaNSwvBj91yWMc0QXg1NFIz6tpC8sML2rwsksnwt450bk1Y3JiERmebBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 09:52:18,696 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670734655775351"}
+
+2023-06-02 09:52:19,759 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670713067772756"}
+
+2023-06-02 09:52:21,099 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670737061113785"}
+
+2023-06-02 09:52:22,159 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670715193253858"}
+
+2023-06-02 09:54:07,349 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQ0MzAsImlhdCI6MTY4NTY3MDgzMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.1uHdQaiA3zsPi1N2K_RB7QbdZcLUuwOks0XqyqKxj1BL8_jxeNxuk_q98-WVbgt7-qdvpl34eKsLRtZTNgPQCA"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 09:54:07,584 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670830538961640"}
+
+2023-06-02 09:54:08,734 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670713067772756"}
+
+2023-06-02 09:54:09,832 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685670832908523740"}
+
+2023-06-02 09:54:10,891 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685670715193253858"}
+
+2023-06-02 09:57:05,293 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQ2MDgsImlhdCI6MTY4NTY3MTAwOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.hX7LhN9UFBgDA3RdWTxbfYsSWLXESODGQzlN9dRUeNRJH28Ok5F1sFX4fYvCBl3cTJyEDO7WwdBqnUf9u10-Cg"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 09:57:05,370 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671008457613900"}
+
+2023-06-02 09:57:06,431 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671008457613900"}
+
+2023-06-02 09:57:07,502 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671010584192240"}
+
+2023-06-02 09:57:08,556 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671010584192240"}
+
+2023-06-02 09:57:34,025 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQ2MzcsImlhdCI6MTY4NTY3MTAzNywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.VJqoH64j7nmMt4VsSyrF2rDmB0c7ThXa4tNS8PUJJDFMHBfylWpVTLDV1F_UU1rXeiHjQAN4MCvv7xclNe09AQ"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 09:57:34,086 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671037175165220"}
+
+2023-06-02 09:57:35,154 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671037175165220"}
+
+2023-06-02 09:57:36,354 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671039315780620"}
+
+2023-06-02 09:57:37,419 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671039315780620"}
+
+2023-06-02 09:57:47,177 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQ2NTAsImlhdCI6MTY4NTY3MTA1MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.DoQUP7cnfWhyL4AcYQ3xt0s2T8n9DfoH_ODRniCx7GXnlWmhzwRIHWBD4LdLkQxwFcIDihf-9mgAWGjSAAUQDQ"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 09:57:47,237 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671050329419900"}
+
+2023-06-02 09:57:48,301 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671037175165220"}
+
+2023-06-02 09:57:49,670 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671052759178540"}
+
+2023-06-02 09:57:50,712 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671039315780620"}
+
+2023-06-02 10:00:25,993 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzQ4MDksImlhdCI6MTY4NTY3MTIwOSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.GjAR3i3h3N-i_f-r5p2TmLjr-7QMJMIFF_9N4KW45ZTa8juT9ugPt6A5Cswqx4U8XKclQphzGEuPz5HnQIDbBw"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 10:00:26,147 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671209225495820"}
+
+2023-06-02 10:00:27,195 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:00:28,564 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671211652469000"}
+
+2023-06-02 10:00:29,622 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:04:18,822 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUwNDEsImlhdCI6MTY4NTY3MTQ0MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjU2NEYzMDI1QUNBMSIsInVzZXJuYW1lIjoiYWRtaW4ifQ.u9cBjmVMXk3AY9FsIYXtEUBsYIF_LoR98x5mMPm4csHAVTPN7MMWlGKyNnxQadUE5MIItyQg1gmHdV1vfyPgCA"},"nodeInfo":{"node":{"sn":"564F3025ACA1"}}}
+
+2023-06-02 10:04:18,881 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671441967942920"}
+
+2023-06-02 10:04:19,935 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:04:21,290 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671444377681500"}
+
+2023-06-02 10:04:22,350 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:06:58,759 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUyMTQsImlhdCI6MTY4NTY3MTYxNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.OtQac8PNzYKvHvCAPFmxZA6f5ee82cbzNi8NgVUdd5TaOst3FZbkXfO-pbJ9yWVQCErgaUBXZvabDm7AI5ukCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:06:58,905 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671614857723865"}
+
+2023-06-02 10:06:59,956 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:07:01,313 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671617265962774"}
+
+2023-06-02 10:07:02,375 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"{$IPC_id$}"}
+
+2023-06-02 10:07:26,446 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUyNDIsImlhdCI6MTY4NTY3MTY0MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.aTuZo4MVnGRZ_VQjCX7tn2eoPIsMK_7MWr4w-neYp10tzzEgpWjdwfRPEvLNvpwgxe6jnm6nbKXEnKaz14RjCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:07:26,497 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671642449447900"}
+
+2023-06-02 10:07:27,564 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671642449447900"}
+
+2023-06-02 10:07:28,720 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671644672794656"}
+
+2023-06-02 10:07:29,777 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671644672794656"}
+
+2023-06-02 10:08:14,426 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUyOTAsImlhdCI6MTY4NTY3MTY5MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.HWvGLogqkJVrVwZQDo0-G-D0ogCL236HnHFKutuEX0h9Vv7HZKZNXTMLrI9z9eJLZ1cewQvOwZ8XuKGQA4o0Ag"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:08:14,505 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671690447428111"}
+
+2023-06-02 10:08:15,561 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671690447428111"}
+
+2023-06-02 10:08:16,628 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671692579881819"}
+
+2023-06-02 10:08:17,695 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671692579881819"}
+
+2023-06-02 10:09:11,851 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUzNDcsImlhdCI6MTY4NTY3MTc0NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.p1pOvDlOAZ4NeXlvLKu15oVN0YOTGwUNgx-Qyk8wGLFSUg6AnANMj-NEoOGfrt3Ag7xtEW8tKV6Le4Y-mSXOAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:09:11,928 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671747880276754"}
+
+2023-06-02 10:09:12,992 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671747880276754"}
+
+2023-06-02 10:09:14,059 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671750009932611"}
+
+2023-06-02 10:09:15,127 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671750009932611"}
+
+2023-06-02 10:09:26,899 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzUzNjIsImlhdCI6MTY4NTY3MTc2MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.KIKb7zEF4LxqPwu1g6U8F8Bf6GGWUY-RZKkK_DdOxjHl0GcSSpBviFzqB8AtAvDyvwvCWH9m-AYlJQnRG1_9CQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:09:26,968 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671762919854696"}
+
+2023-06-02 10:09:28,023 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671747880276754"}
+
+2023-06-02 10:09:29,408 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671765360010080"}
+
+2023-06-02 10:09:30,457 node.py[line:99] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671750009932611"}
+
+2023-06-02 10:10:27,183 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzU0MjMsImlhdCI6MTY4NTY3MTgyMywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.xakSzIYeZRw5NOKoHjCy9952rt6jCVu4cvtpoDbXGEjj_vmhbu0o4ZYsG-1LFknOAYjofYy0kOuVWRni05GvBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:10:27,273 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671823224156414"}
+
+2023-06-02 10:10:28,339 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671823224156414"}
+
+2023-06-02 10:10:29,388 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671825339497103"}
+
+2023-06-02 10:10:30,456 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671825339497103"}
+
+2023-06-02 10:12:39,784 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzU1NTUsImlhdCI6MTY4NTY3MTk1NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.kKZTFwovh8nYt1nc6RW83QnGgs2xgmId2nzm_wM28VAyloQWQX8_FpAWX_JX4h55o4JWIAoj0bFRpbIayW4SDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:12:39,864 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671955813867333"}
+
+2023-06-02 10:12:40,916 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671823224156414"}
+
+2023-06-02 10:12:42,251 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685671958200679136"}
+
+2023-06-02 10:12:43,314 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685671825339497103"}
+
+2023-06-02 10:18:38,601 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzU5MTQsImlhdCI6MTY4NTY3MjMxNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.2KtD71T5W5tOfurJWYXolhtwVz8vQyQDTfeGQUuFIYKKqOxLMESWQrSfcfiTlL8kYbW1bWeo_U3KGObnEl1sCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:18:38,685 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672314632087783"}
+
+2023-06-02 10:18:39,737 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672314632087783"}
+
+2023-06-02 10:18:40,818 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672316765675731"}
+
+2023-06-02 10:18:41,888 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672316765675731"}
+
+2023-06-02 10:19:02,796 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzU5MzgsImlhdCI6MTY4NTY3MjMzOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.SPwwRp4IZv3e4pgiO4eq1E1KUOdFnzfwpz3XblAhrfCoE4H8F-loI6eWhFIdnH6MeZJhpyDSpl7YdJbAKoQ3Dw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:19:02,856 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672338803041279"}
+
+2023-06-02 10:19:03,915 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672314632087783"}
+
+2023-06-02 10:19:05,272 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672341218804581"}
+
+2023-06-02 10:19:06,330 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672316765675731"}
+
+2023-06-02 10:20:01,739 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzU5OTcsImlhdCI6MTY4NTY3MjM5NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.xL7pT0LFOJKu392JhKSUo2S2nntyHQO1rwaRk4KGq7iFE-IzJB4xMXJhwxKDv61gxaDKpAOOUdRGkWyeTS_8AQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:20:01,822 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672397768191479"}
+
+2023-06-02 10:20:02,905 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672397768191479"}
+
+2023-06-02 10:20:03,967 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672399914210778"}
+
+2023-06-02 10:20:05,035 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672399914210778"}
+
+2023-06-02 10:20:15,646 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzYwMTEsImlhdCI6MTY4NTY3MjQxMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.1AanF39i517MoqaHaDxdJp2ioGc3ZOs7ArFHqj809IOubsYsIV1sqcMVgDnZw-h6VAsiqALu9kLKhTzADhCGDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:20:15,701 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672411647712649"}
+
+2023-06-02 10:20:16,761 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672397768191479"}
+
+2023-06-02 10:20:18,130 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672414076484506"}
+
+2023-06-02 10:20:19,177 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672399914210778"}
+
+2023-06-02 10:22:48,143 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzYxNjQsImlhdCI6MTY4NTY3MjU2NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.OfMJ1vXFFR-gLa2VxQs9OeAHZYhaysOPNp6mq2YiFusyO8UBVY1VyXPUaqiP-7C9icHjOJZXxHIQCF3RGUbjCg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:22:48,227 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672564172343648"}
+
+2023-06-02 10:22:49,278 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672564172343648"}
+
+2023-06-02 10:22:50,344 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672566289298573"}
+
+2023-06-02 10:22:51,407 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672566289298573"}
+
+2023-06-02 10:23:32,187 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzYyMDgsImlhdCI6MTY4NTY3MjYwOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.NPF9UKKLxRCyHZrcMi8MeSCHTol0tmTnrxj3rkEc9iY6vCOLGMfjWgZEeJqk9gz6mOGlW48MaC_8KMy2kdtWBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:23:32,243 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672608187196926"}
+
+2023-06-02 10:23:33,303 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672564172343648"}
+
+2023-06-02 10:23:34,659 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672610604572298"}
+
+2023-06-02 10:23:35,720 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672566289298573"}
+
+2023-06-02 10:26:54,355 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY0MTAsImlhdCI6MTY4NTY3MjgxMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.RlRUes-fKbHJiUortmef3L-Xwh-INQS4wUmao_pVDHfD88O_OcvLRSIlrBo245pzIOoe99SvwzUTjd33FM33Ag"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:26:54,441 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672810384679337"}
+
+2023-06-02 10:26:55,502 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672810384679337"}
+
+2023-06-02 10:26:56,569 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672812512125797"}
+
+2023-06-02 10:26:57,632 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672812512125797"}
+
+2023-06-02 10:27:45,315 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY0NjEsImlhdCI6MTY4NTY3Mjg2MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.lsgCkfl5xY5TnwbhZ10sGGTTxH6DeORYeqYrAhfMDz9R7uGLboVIBQOlDrVa2OHL4kNuf27f67Ep2YEEdxvtDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:27:45,404 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672861345951164"}
+
+2023-06-02 10:27:46,462 node.py[line:101] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672810384679337"}
+
+2023-06-02 10:27:47,818 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672863760570852"}
+
+2023-06-02 10:27:48,880 node.py[line:101] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672812512125797"}
+
+2023-06-02 10:29:47,017 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY1ODIsImlhdCI6MTY4NTY3Mjk4MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.SR61YEuuwIWLJzFcAfAS7ifhe-XA7ux75E_gA5NjPK8OAkjb5dwMdJ527NcQ2hGWmXpDN8tVwkp96nmst8isAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:29:47,075 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672983005764605"}
+
+2023-06-02 10:29:48,144 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672983005764605"}
+
+2023-06-02 10:29:49,233 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685672985172086645"}
+
+2023-06-02 10:29:50,294 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672985172086645"}
+
+2023-06-02 10:30:09,507 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY2MDUsImlhdCI6MTY4NTY3MzAwNSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.n4VZ-q8SFTyGj-7X075TC9xLiQBizL1v4o5oSM5rL01rjAYBGOwszcmDRkpA_eHhnRkdSPIQ-PNShe5bYcwyAA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:30:09,571 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673005513774087"}
+
+2023-06-02 10:30:10,621 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672983005764605"}
+
+2023-06-02 10:30:11,993 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673007935392423"}
+
+2023-06-02 10:30:13,058 node.py[line:102] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685672985172086645"}
+
+2023-06-02 10:30:44,640 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY2NDAsImlhdCI6MTY4NTY3MzA0MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.IB57NP6_0px-TXVSbHi7kgwoswZf64SeF-GaKMNODVJrxzbvpoFIcAKVga9DDxEGxPyETgZzztEolievf9z_AA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:30:44,692 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673040634284891"}
+
+2023-06-02 10:30:45,761 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673040634284891"}
+
+2023-06-02 10:30:46,829 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673042770692731"}
+
+2023-06-02 10:30:47,895 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673042770692731"}
+
+2023-06-02 10:30:59,922 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY2NTUsImlhdCI6MTY4NTY3MzA1NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.nD_FKQrgRoJFANsZxcdOTcoilzUR_qP71y7l3x8yN55-g4p_CuvvGXIWDFke6nLKTPXn2DZ61e4T8KZD9w_BBw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:30:59,982 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673055922673518"}
+
+2023-06-02 10:31:01,039 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673040634284891"}
+
+2023-06-02 10:31:02,358 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673058299320658"}
+
+2023-06-02 10:31:03,402 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673042770692731"}
+
+2023-06-02 10:32:14,941 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY3MzAsImlhdCI6MTY4NTY3MzEzMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.vgoDYns5CZiBvyqZ_SR3r5USN9AMjMqbxcv7IQlFu-b7qOjwT1risjyYENTu5X2E5sdHLgwH0W2xN0GrdXArCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:32:14,996 node.py[line:104] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673130936355822"}
+
+2023-06-02 10:32:16,052 node.py[line:104] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673130936355822"}
+
+2023-06-02 10:32:17,105 node.py[line:104] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673133046260808"}
+
+2023-06-02 10:32:18,171 node.py[line:104] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673133046260808"}
+
+2023-06-02 10:32:39,424 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY3NTUsImlhdCI6MTY4NTY3MzE1NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.9V4b5RW8BDO-vtJpd0iYotamcAW8R-aHjg9phVkS3oCdKqP78ULgNtzpmtR0TghiYUnEQb84UzkfYUm216ETCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:32:39,496 node.py[line:104] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673155437115969"}
+
+2023-06-02 10:32:40,550 node.py[line:104] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673130936355822"}
+
+2023-06-02 10:32:41,956 node.py[line:104] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673157896519186"}
+
+2023-06-02 10:32:43,018 node.py[line:104] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673133046260808"}
+
+2023-06-02 10:34:25,658 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY4NjEsImlhdCI6MTY4NTY3MzI2MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.-js5XbJv1L3B7tSROkWqRyI1IbSx-TiDkf-env0waQ1aIU1i5EPglqWgfc4ctZwhx3tVgb2dvy-pGeBnwDGFCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:34:25,736 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673261676808254"}
+
+2023-06-02 10:34:26,804 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673261676808254"}
+
+2023-06-02 10:34:27,867 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673263807256770"}
+
+2023-06-02 10:34:28,918 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673263807256770"}
+
+2023-06-02 10:35:32,414 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzY5MjgsImlhdCI6MTY4NTY3MzMyOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.0fa-YYZ1hC-Srffno-sGmrBCrr9kypmkeSJlfPdO3qPRNRuTdUPNtCMFaJIR4-YxNMYaflONmRYNWRFgwJD5AQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:35:32,488 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673328427650587"}
+
+2023-06-02 10:35:33,542 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673261676808254"}
+
+2023-06-02 10:35:34,899 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673330839050761"}
+
+2023-06-02 10:35:35,959 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673263807256770"}
+
+2023-06-02 10:38:26,709 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzcxMDIsImlhdCI6MTY4NTY3MzUwMiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.Q60KUdjzP6M2zFSXhf9g3ftiLxCw6q1rMO9lDAQP32Ztw25pCZ9pC3WosXCZTOtxmIsSnO7XaR2ZoEoaTCUMDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:38:26,782 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673502720711373"}
+
+2023-06-02 10:38:27,839 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673502720711373"}
+
+2023-06-02 10:38:28,910 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673504848817743"}
+
+2023-06-02 10:38:29,998 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673504848817743"}
+
+2023-06-02 10:38:43,202 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzcxMTksImlhdCI6MTY4NTY3MzUxOSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.CtjXNG-YnVsjxw2OQEGS-DTpedJpd9ouOVhdwd7zCp3yQVRHrNvuGluqGXzzWZ4eHBB5OnUzWSqD6xAXj6xiAA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:38:43,260 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673519198477519"}
+
+2023-06-02 10:38:44,320 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673502720711373"}
+
+2023-06-02 10:38:45,709 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685673521650609758"}
+
+2023-06-02 10:38:46,767 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673504848817743"}
+
+2023-06-02 10:39:53,966 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 10:39:55,033 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 10:39:56,074 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 10:39:57,091 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 10:39:59,085 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 10:40:00,153 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 10:40:01,237 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 10:40:02,318 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 10:40:03,336 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 10:40:05,313 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 10:40:06,365 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 10:40:07,452 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 10:40:10,225 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 10:40:11,275 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 10:40:21,290 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 10:55:12,930 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzgxMDgsImlhdCI6MTY4NTY3NDUwOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.xzMNezPemmZgrd8iTH2j6HvtXB2zxyFMYsCgNdfOjUfJMnuUGkWTvJsZhFcYfIblQ4_mR5M5YxeWhNTVil76Bw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:55:13,019 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674508949267488"}
+
+2023-06-02 10:55:14,071 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673502720711373"}
+
+2023-06-02 10:55:15,134 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674511066125497"}
+
+2023-06-02 10:55:16,180 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685673504848817743"}
+
+2023-06-02 10:59:15,014 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzgzNTAsImlhdCI6MTY4NTY3NDc1MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.0-qnotwKSaI3mLrZ2SySEk0ioYwv4A63TXrzvqS4KsCQLa9PMhPsvXm4lz8LNbJnnOjqutmoApPlxxSDQ_YPCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:59:15,062 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674750990773533"}
+
+2023-06-02 10:59:16,130 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674750990773533"}
+
+2023-06-02 10:59:17,196 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674753125251015"}
+
+2023-06-02 10:59:18,260 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674753125251015"}
+
+2023-06-02 10:59:29,199 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzgzNjUsImlhdCI6MTY4NTY3NDc2NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.miEziVYJSvWKsgzEE7__aRhTHmwWOliTead7YBRCJcmrnfwymQmGDyKsMKIws9oTjOkd0NYhWcQE88lDK3K7BA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 10:59:29,265 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674765192815417"}
+
+2023-06-02 10:59:30,321 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674750990773533"}
+
+2023-06-02 10:59:31,695 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674767623896587"}
+
+2023-06-02 10:59:32,754 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674753125251015"}
+
+2023-06-02 11:00:47,460 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzg0NDMsImlhdCI6MTY4NTY3NDg0MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.0tomCXRybCHwQPnlx5RyTd4_B1Cdo3Rp0iocn4qLCCYmv65XXefois_q-1DNavuTTc6F3gbFrA1PUOppVJ7mAg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:00:47,508 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674843435381585"}
+
+2023-06-02 11:00:48,582 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674843435381585"}
+
+2023-06-02 11:00:49,639 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674845566952759"}
+
+2023-06-02 11:00:50,740 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674845566952759"}
+
+2023-06-02 11:01:16,964 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzg0NzIsImlhdCI6MTY4NTY3NDg3MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.JM_2oMUx0Jbt7TQHSYUiG8PXDBV2v6ZAlTkemR47V0gKWki2-fqvX0UsGuZa7iAzORJU7d1m-21r-WNfCjgkCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:01:17,022 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674872950856338"}
+
+2023-06-02 11:01:18,082 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674843435381585"}
+
+2023-06-02 11:01:19,448 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674875373673538"}
+
+2023-06-02 11:01:20,515 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674845566952759"}
+
+2023-06-02 11:03:08,884 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzg1ODQsImlhdCI6MTY4NTY3NDk4NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.xCD9WoAQJqq1-68UYAaZYGtuHdhrNiTce8_PWxhgys6cW2CeETXIk5BWQAVul_MVogzvRvgxz31PGCZKbYlzDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:03:08,939 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674984866298354"}
+
+2023-06-02 11:03:10,001 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674984866298354"}
+
+2023-06-02 11:03:11,050 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674986976981333"}
+
+2023-06-02 11:03:12,100 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674986976981333"}
+
+2023-06-02 11:03:21,907 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzg1OTcsImlhdCI6MTY4NTY3NDk5NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.xKhW7Je5rX1_mTgfvH3vBYoWryzR-DJb9SNjQ9xM-2QjaFJuI69tgpLcRvJNjuZa35eyNbhncg2bTvnbYoupCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:03:21,969 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685674997898998212"}
+
+2023-06-02 11:03:23,030 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674984866298354"}
+
+2023-06-02 11:03:24,383 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675000310444302"}
+
+2023-06-02 11:03:25,444 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685674986976981333"}
+
+2023-06-02 11:12:48,380 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzkxNjQsImlhdCI6MTY4NTY3NTU2NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.iemlBNAyU8z3sTt0c-GHcsj_oaO9_MXopteH-8eGwIoBkuZgrKR7jN3pOzDpd04yFqk7JJcM0Wm9kKXuKxdEBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:12:48,432 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675564355191420"}
+
+2023-06-02 11:12:49,494 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675564355191420"}
+
+2023-06-02 11:12:50,571 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675566495328062"}
+
+2023-06-02 11:12:51,627 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675566495328062"}
+
+2023-06-02 11:13:01,230 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2NzkxNzcsImlhdCI6MTY4NTY3NTU3NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.y8_U4MTmhGSx4crZnTJMsIp3NIOUUc4_Ez7dHj4qgSjEeifrAGVBOSf_1uF0tzNo2HNovwnZmjDhpGQwZLqrBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:13:01,278 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675577201816677"}
+
+2023-06-02 11:13:02,338 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675564355191420"}
+
+2023-06-02 11:13:03,684 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675579607813106"}
+
+2023-06-02 11:13:04,739 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675566495328062"}
+
+2023-06-02 11:19:02,483 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzk1MzgsImlhdCI6MTY4NTY3NTkzOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.4DMP3R9zE394hesIKIinrl7moA2yxFhkK2-C_O5aYhxQecMjTKOSkezismxem10PCcEbd4HAUrcalGAebK60Bw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:19:02,545 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675938464835846"}
+
+2023-06-02 11:19:03,610 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675938464835846"}
+
+2023-06-02 11:19:04,714 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675940633915113"}
+
+2023-06-02 11:19:05,793 node.py[line:103] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675940633915113"}
+
+2023-06-02 11:19:15,979 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzk1NTEsImlhdCI6MTY4NTY3NTk1MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.r7CzJ_a4d6IFOKFAJlhoFsKMm5t4QV5f8Rr1vEJ5RSU0ZBQeT1tU8C2daou8OP-yhjAPm7Hzynquz5Y2UmFjAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:19:16,158 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675952077864985"}
+
+2023-06-02 11:19:17,235 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675938464835846"}
+
+2023-06-02 11:19:18,634 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685675954553157565"}
+
+2023-06-02 11:19:19,712 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675940633915113"}
+
+2023-06-02 11:22:16,946 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzk3MzIsImlhdCI6MTY4NTY3NjEzMiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.h29sJEqFI1EleDUsCthj4TJU1wMEB9bBgEgOAmv7GG7zkXXIf-GfnJg4qbjrENeoZajWGDCVBRa5HxyNrva3Dw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:22:17,054 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676132972141925"}
+
+2023-06-02 11:22:18,106 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675938464835846"}
+
+2023-06-02 11:22:19,178 node.py[line:103] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676135096112414"}
+
+2023-06-02 11:22:20,235 node.py[line:103] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685675940633915113"}
+
+2023-06-02 11:25:49,999 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2Nzk5NDUsImlhdCI6MTY4NTY3NjM0NSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.AcE5Nc3vYvU58XIDupi8n1xB8BjkBqr5-x9_5TcYXPMlmIZ8CmZ1T8-1FRz_6kZZSf1Yy1ewENvaWqf31_m_AA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:25:50,073 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676345989510306"}
+
+2023-06-02 11:25:51,131 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676345989510306"}
+
+2023-06-02 11:25:52,181 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676348097998596"}
+
+2023-06-02 11:25:53,251 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676348097998596"}
+
+2023-06-02 11:30:25,868 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODAyMjEsImlhdCI6MTY4NTY3NjYyMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.oJG_L8vK0wiVkk-JuKJvpwqobonBdiHoVYYAo9vzPXVg3d5eSVOiDLPvZqzSJihy-FJTpx89Zvf2_FZl0VWPBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:30:25,947 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676621861390255"}
+
+2023-06-02 11:30:27,067 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676621861390255"}
+
+2023-06-02 11:30:28,137 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676624055032434"}
+
+2023-06-02 11:30:29,187 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676624055032434"}
+
+2023-06-02 11:32:35,733 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODAzNTEsImlhdCI6MTY4NTY3Njc1MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.nFkQh8b_mwHq90iohVYoyeS1dFTSoGZoT2d53qE5H_C_oCvXqcAX3MjAdRmOkDrikTbXtz-0ybxQ5DwPvRjcDA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:32:35,786 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676751699769060"}
+
+2023-06-02 11:32:36,850 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676751699769060"}
+
+2023-06-02 11:32:37,933 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676753845420904"}
+
+2023-06-02 11:32:39,010 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676753845420904"}
+
+2023-06-02 11:32:54,580 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODAzNzAsImlhdCI6MTY4NTY3Njc3MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.bl4llKAY5bS1pZXvnwC5rgG8JwgcfQ-2NusJYHeaakkOCSjh4wsHbxccMw0Yti9utbexZJzuyERfDUTL-uwZCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:32:54,671 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676770584343795"}
+
+2023-06-02 11:32:55,748 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676751699769060"}
+
+2023-06-02 11:32:57,098 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676773011335543"}
+
+2023-06-02 11:32:58,161 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676753845420904"}
+
+2023-06-02 11:34:10,134 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODA0NDYsImlhdCI6MTY4NTY3Njg0NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.athdwhlBw0BZAusve5n0GjGLZzs4_YnLJWqmmJqxJJsuDWZy5d1tAUohV7yM3SyQgiBs5yct_SzfiqTgbaCyCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:34:10,200 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676846115061342"}
+
+2023-06-02 11:34:11,264 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676846115061342"}
+
+2023-06-02 11:34:12,313 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676848225742488"}
+
+2023-06-02 11:34:13,381 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676848225742488"}
+
+2023-06-02 11:34:27,899 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODA0NjMsImlhdCI6MTY4NTY3Njg2MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.hXANsTt7najKYFOCvqcXvg5wHJsoQjt9ik0QF1L_AHRhh_lllKH7NrpK5id296Y_Wa72uMkOLXGPaCc-9mxJDw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:34:27,947 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676863859790797"}
+
+2023-06-02 11:34:29,012 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676846115061342"}
+
+2023-06-02 11:34:30,378 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685676866290670761"}
+
+2023-06-02 11:34:31,462 node.py[line:100] INFO {"code":20201,"message":"error: Not found video resource, failed to delete","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685676848225742488"}
+
+2023-06-02 11:38:53,891 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:38:54,960 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:38:55,999 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 11:38:57,014 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 11:38:58,999 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 11:39:00,054 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 11:39:01,128 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:02,204 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:03,222 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 11:39:05,168 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 11:39:06,218 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 11:39:07,279 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 11:39:09,339 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 11:39:10,383 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 11:39:20,405 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 11:39:30,931 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:32,005 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:33,045 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 11:39:34,065 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 11:39:36,170 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 11:39:37,244 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 11:39:38,396 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:39,470 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:39:40,483 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 11:40:08,164 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:09,237 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:10,273 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 11:40:11,294 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 11:40:13,314 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 11:40:14,380 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 11:40:15,452 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:16,528 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:17,543 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 11:40:19,481 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 11:40:20,542 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 11:40:21,600 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 11:40:23,528 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 11:40:24,562 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 11:40:34,581 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 11:40:47,607 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:48,682 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:49,729 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 11:40:50,744 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 11:40:52,775 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 11:40:53,832 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 11:40:54,905 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:55,990 test_ui_task.py[line:63] INFO 输入文本：admin
+2023-06-02 11:40:57,005 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 11:40:58,970 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 11:41:00,028 test_ui_task.py[line:50] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 11:41:01,086 test_ui_task.py[line:50] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 11:41:03,190 test_ui_task.py[line:81] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 11:41:04,234 test_ui_task.py[line:50] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 11:41:14,247 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 11:41:22,215 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODA4NzgsImlhdCI6MTY4NTY3NzI3OCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.FbVj2BJ-EOKI-v3Mt3sGd9OLpsKgE9qx05Ks0-oUqqNw_UMoiNCSVKfycTu6EnH3LfH2wT1BCksOpJeJuXJnAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:41:22,284 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677278193468491"}
+
+2023-06-02 11:41:23,347 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677278193468491"}
+
+2023-06-02 11:41:24,414 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677280322799768"}
+
+2023-06-02 11:41:25,479 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677280322799768"}
+
+2023-06-02 11:45:00,183 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODEwOTYsImlhdCI6MTY4NTY3NzQ5NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.aIuxTUzC4IrKOCZ-HhSZAFUzTQeCfp8q_FDdJMuhleGUkHreMQotcJ4beSIZhEwfcvkrCW3Ki2sxsIA_s7BPCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:45:00,242 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677496149808008"}
+
+2023-06-02 11:45:01,308 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677496149808008"}
+
+2023-06-02 11:45:02,370 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677498277997086"}
+
+2023-06-02 11:45:03,434 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677498277997086"}
+
+2023-06-02 11:45:15,547 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODExMTEsImlhdCI6MTY4NTY3NzUxMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.so9I7NDtcDbfNafHajGQ06uuXjgfQygyIOP4OlMlQ--NazQ1IyICUGTmwonZ7np5hAOVX3Fhzf9FV1vBO6JuBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:45:15,622 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677511522517324"}
+
+2023-06-02 11:45:16,689 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677511522517324"}
+
+2023-06-02 11:45:17,754 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677513662221594"}
+
+2023-06-02 11:45:18,827 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677513662221594"}
+
+2023-06-02 11:47:41,935 test_ui_task.py[line:68] INFO 输入文本：admin
+2023-06-02 11:47:43,001 test_ui_task.py[line:68] INFO 输入文本：admin
+2023-06-02 11:47:44,036 test_ui_task.py[line:55] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 11:47:45,048 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 11:47:47,009 test_ui_task.py[line:55] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 11:47:48,069 test_ui_task.py[line:55] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 11:47:49,149 test_ui_task.py[line:68] INFO 输入文本：admin
+2023-06-02 11:47:50,221 test_ui_task.py[line:68] INFO 输入文本：admin
+2023-06-02 11:47:51,246 test_ui_task.py[line:92] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 11:47:53,166 test_ui_task.py[line:55] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 11:47:54,222 test_ui_task.py[line:55] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 11:47:55,276 test_ui_task.py[line:55] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 11:47:57,257 test_ui_task.py[line:86] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 11:47:58,298 test_ui_task.py[line:55] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 11:48:08,314 test_ui_task.py[line:97] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 11:48:16,576 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODEyOTIsImlhdCI6MTY4NTY3NzY5MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.6GObUvUe0-W-FBV83FJjxatk9N8itGQp0K24x4gJbCtJlj3nHEUnkFWf1luHWRv3GjuiRolnNs4zmeIBfnirBw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:48:16,634 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677692540877734"}
+
+2023-06-02 11:48:17,696 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677692540877734"}
+
+2023-06-02 11:48:18,763 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677694669375392"}
+
+2023-06-02 11:48:19,828 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677694669375392"}
+
+2023-06-02 11:49:34,212 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODEzNzAsImlhdCI6MTY4NTY3Nzc3MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.lolvjjibUOWWD1JRzN-N8Jj0FIqQh60cHnM7faJg3nG67oCHgwpM3d8ldTqtvVW0HCY24zzfWJXM5nSjfdu6Bg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:49:34,263 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677770170038699"}
+
+2023-06-02 11:49:35,337 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677770170038699"}
+
+2023-06-02 11:49:36,537 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685677772430593384"}
+
+2023-06-02 11:49:37,611 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685677772430593384"}
+
+2023-06-02 11:56:53,673 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2ODE4MDksImlhdCI6MTY4NTY3ODIwOSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.Xg0KNXX0rhto9jYdU_hUAYJuyj54M7FXlEMhjSzPrOITAmTt-vTZYbEpaltkdC9ttb6Fa-mJgVRh4LFcgjEACA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 11:56:53,758 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685678209661754947"}
+
+2023-06-02 11:56:54,832 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685678209661754947"}
+
+2023-06-02 11:56:55,892 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685678211796364136"}
+
+2023-06-02 11:56:56,951 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685678211796364136"}
+
+2023-06-02 15:49:22,312 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2OTU3NTgsImlhdCI6MTY4NTY5MjE1OCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.NWufrnMz_Q3yW9xlVmqFt8CFvpPs9X9zUvZZSyWLneWJ1_jgUgvedSf3wBvXC_dqH7CmrIZplx4aj6irhQn4Ag"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 15:49:22,636 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685692158433541858"}
+
+2023-06-02 15:49:23,694 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685692158433541858"}
+
+2023-06-02 15:49:24,784 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685692160580763605"}
+
+2023-06-02 15:49:25,850 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685692160580763605"}
+
+2023-06-02 15:49:51,268 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODU2OTU3ODcsImlhdCI6MTY4NTY5MjE4NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.QDwodSKE4m5TsCjnHYbC-fEqSjAu3ie2aX_-1pS92Vzz4nbl02KvfEcLEnM2RwJ_oV5byeFDltk2__gAaLQyAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-02 15:49:51,406 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685692187202911139"}
+
+2023-06-02 15:49:52,461 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685692187202911139"}
+
+2023-06-02 15:49:53,530 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1685692189327138626"}
+
+2023-06-02 15:49:54,589 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1685692189327138626"}
+
+2023-06-02 15:50:38,067 test_ui_task.py[line:60] INFO 输入文本：admin
+2023-06-02 15:50:39,185 test_ui_task.py[line:60] INFO 输入文本：admin
+2023-06-02 15:50:40,228 test_ui_task.py[line:47] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 15:50:41,246 test_ui_task.py[line:84] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 15:50:43,249 test_ui_task.py[line:47] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 15:50:44,319 test_ui_task.py[line:47] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 15:50:45,393 test_ui_task.py[line:60] INFO 输入文本：admin
+2023-06-02 15:50:46,467 test_ui_task.py[line:60] INFO 输入文本：admin
+2023-06-02 15:50:47,489 test_ui_task.py[line:84] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 15:51:31,931 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:51:33,001 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:51:34,043 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 15:51:35,065 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 15:51:37,305 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 15:51:38,375 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 15:51:39,450 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:51:40,540 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:51:41,562 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 15:52:45,662 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:52:46,735 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:52:47,780 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 15:52:48,803 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 15:52:51,086 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 15:52:52,160 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 15:52:53,248 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:52:54,319 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:52:55,341 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 15:52:57,546 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 15:52:58,606 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 15:52:59,663 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 15:53:05,915 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 15:53:06,951 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 15:53:16,967 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 15:53:30,675 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:53:31,745 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:53:32,786 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 15:53:33,807 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 15:53:41,027 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 15:53:42,088 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 15:53:43,148 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 15:53:45,150 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 15:53:46,194 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 15:53:56,218 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 15:59:27,635 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:59:28,710 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:59:29,749 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 15:59:30,765 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 15:59:34,337 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 15:59:35,406 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 15:59:36,651 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:59:37,739 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 15:59:38,750 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33228, 33232), match='安装位置'>
+2023-06-02 15:59:41,584 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 15:59:42,706 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 15:59:43,779 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 15:59:49,761 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 15:59:50,813 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 16:00:00,836 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 16:03:25,123 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:03:26,195 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:03:27,243 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 16:03:28,264 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 16:03:30,460 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 16:03:31,534 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 16:03:32,632 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:03:33,726 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:03:34,748 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33230, 33234), match='安装位置'>
+2023-06-02 16:03:36,850 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 16:03:37,915 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 16:03:38,967 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 16:03:43,684 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 16:03:44,736 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 16:03:54,747 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 16:04:13,431 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:04:14,510 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:04:15,565 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 16:04:16,575 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 16:04:19,195 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 16:04:20,257 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 16:04:21,350 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:04:22,437 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:04:23,451 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 16:04:25,623 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 16:04:26,680 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 16:04:27,733 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 16:04:30,858 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 16:04:31,898 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 16:04:41,922 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 16:18:17,253 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:18:18,323 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:18:19,406 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 16:18:20,471 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 16:18:22,669 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 16:18:23,742 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 16:18:24,814 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:18:25,953 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 16:18:26,969 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33260, 33264), match='安装位置'>
+2023-06-02 16:18:28,989 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 16:18:30,052 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 16:18:31,111 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 16:18:33,793 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 16:18:34,841 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 16:18:44,854 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-02 17:03:09,889 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 17:03:10,964 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 17:03:12,046 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-02 17:03:13,153 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-02 17:03:15,289 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-02 17:03:16,363 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-02 17:03:17,437 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 17:03:18,526 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-06-02 17:03:19,548 test_ui_task.py[line:85] INFO 断言结果：<re.Match object; span=(33262, 33266), match='安装位置'>
+2023-06-02 17:03:21,550 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-02 17:03:22,606 test_ui_task.py[line:48] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-02 17:03:23,654 test_ui_task.py[line:48] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-06-02 17:03:25,648 test_ui_task.py[line:79] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-06-02 17:03:26,703 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-06-02 17:03:36,739 test_ui_task.py[line:90] INFO 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>
+2023-06-06 14:54:36,646 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDQ5OTcwMDEsImlhdCI6MTY0NDk5MzQwMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.yQYCt3rfaZQwPmwZFeLdT0zvS8TBpSfVeYvKKYcf4cCkw2sW5oWrH_Z6JLdGvhprGzS_vuw7ib12Dkv0AP8MAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-06 14:54:36,759 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1644993401269534186"}
+
+2023-06-06 14:54:37,821 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1644993401269534186"}
+
+2023-06-06 14:54:38,888 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1644993403400256170"}
+
+2023-06-06 14:54:39,953 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1644993403400256170"}
+
+2023-06-06 14:55:30,116 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYwMzgxMjgsImlhdCI6MTY4NjAzNDUyOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.v6njfTaLtFzySHSdFv2W6GCJsnCTtIh1c0br83j6ZUGiJYTIaHbZsKLPiFT6pp0ED315lXeKtAGOEafgBP3XBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-06 14:55:30,173 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686034528419518417"}
+
+2023-06-06 14:55:31,232 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686034528419518417"}
+
+2023-06-06 14:55:32,284 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686034530531740918"}
+
+2023-06-06 14:55:33,354 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686034530531740918"}
+
+2023-06-07 11:54:36,014 node.py[line:40] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODYxMTM2NzYsImlhdCI6MTY4NjExMDA3NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.EcIFftCvwokh9BJckNnKYR3M1JpBdWpm2JzLE2OiO8QjEAzecl9KNgvCtWu0xiiNqB07E6yQMs614Ydb-xbaBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-07 11:54:36,154 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686110076148020692"}
+
+2023-06-07 11:54:37,246 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686110076148020692"}
+
+2023-06-07 11:54:38,316 node.py[line:100] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686110078312972072"}
+
+2023-06-07 11:54:39,386 node.py[line:100] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686110078312972072"}
+
+2023-06-12 16:43:00,935 node.py[line:41] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODY1NjI5ODAsImlhdCI6MTY4NjU1OTM4MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9._khVGC0G1kcHPasCnPLqGcGjreoek_7X5AO0CvkaPh9S1kntOs_LmqCEpPMedi6xD5nOcwQwQ-gRKYYElw7_Dg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-12 16:43:01,071 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686559381075706900"}
+
+2023-06-12 16:43:02,131 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686559381075706900"}
+
+2023-06-12 16:43:03,202 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686559383206961914"}
+
+2023-06-12 16:43:04,265 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686559383206961914"}
+
+2023-06-15 17:21:10,232 node.py[line:41] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODY4MjQ0NzAsImlhdCI6MTY4NjgyMDg3MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.HUOfxtW1QXCxp7K8j2U5TOh0hZgD9tRIPCuzYrBjCvJOTXtF0n6TXvwKYH1RwQ0rEv-4n-wSi58_qITk3mxgCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-15 17:21:10,363 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686820870455244045"}
+
+2023-06-15 17:21:11,426 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686820870455244045"}
+
+2023-06-15 17:21:12,494 node.py[line:101] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1686820872583529353"}
+
+2023-06-15 17:21:13,557 node.py[line:101] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1686820872583529353"}
+
+2023-06-19 15:22:44,595 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODcxNjI5NjQsImlhdCI6MTY4NzE1OTM2NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.fQ9AtQssTE_so3sR3Ffzd3c7xCGeLWqsx4Hoo76JZ0uuIX3CWH_Nh1xNOp135E3gFL5GvZy2Ce-lXaQ8TVc2Bg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-19 15:22:44,684 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687159364689330929"}
+
+2023-06-19 15:22:45,747 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687159364689330929"}
+
+2023-06-19 15:22:46,835 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687159366838461100"}
+
+2023-06-19 15:22:47,895 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687159366838461100"}
+
+2023-06-20 11:58:56,656 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODcyMzcxMzYsImlhdCI6MTY4NzIzMzUzNiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.SYPbRIAOihLHEH1LMtJbkJgmXF3hLm5C2AtbzkEslTUrr9owQTfsP7g-SzVH8GIdCIq1KlL07zDwSb4dSTBwAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-20 11:58:56,846 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687233536838520012"}
+
+2023-06-20 11:58:57,910 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687233536838520012"}
+
+2023-06-20 11:58:58,977 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687233538979545523"}
+
+2023-06-20 11:59:00,043 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687233538979545523"}
+
+2023-06-25 11:36:02,927 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-25 11:36:04,062 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-25 11:36:05,100 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-25 11:36:06,224 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>
+2023-06-25 11:36:08,576 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[2]/i
+2023-06-25 11:36:09,642 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/form/div/div/button
+2023-06-25 11:36:10,725 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-25 11:36:11,839 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-25 11:36:12,860 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(33315, 33319), match='安装位置'>
+2023-06-25 11:36:14,939 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-06-25 11:36:16,005 test_ui_task.py[line:49] INFO 点击元素：//*[@id='tab-programUpload']
+2023-06-25 11:36:51,558 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc2Njc4NzEsImlhdCI6MTY4NzY2NDI3MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.tNaQzvCgo_mU14PgBrJ5pFDbiDqB_iUjRBdsaFA6Z1yjvG3Io6Ko9J1s6FmsM6kT2qaVqysHu7NnngasGhmGBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-25 11:36:51,641 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687664271726932384"}
+
+2023-06-25 11:36:52,718 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687664271726932384"}
+
+2023-06-25 11:36:53,780 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687664273867468635"}
+
+2023-06-25 11:36:54,847 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687664273867468635"}
+
+2023-06-26 15:48:19,668 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NjkzNTksImlhdCI6MTY4Nzc2NTc1OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.LOFvggIzclbojLYni14XrV-3ESKbu4WWHAOlVGR-FUv8bjKIeQLumO2BEV1P9e3CNtWei5m80xKMn9URbM4rCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-26 15:48:19,768 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687765759473750431"}
+
+2023-06-26 15:48:20,824 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687765759473750431"}
+
+2023-06-26 16:31:28,573 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 16:31:29,675 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 16:31:30,718 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-26 16:31:31,739 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-26 17:18:47,872 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:18:49,008 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:18:50,043 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-26 17:18:51,618 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-26 17:20:24,425 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:20:25,500 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:20:26,535 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-26 17:20:27,549 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-26 17:20:40,510 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NzQ5MDAsImlhdCI6MTY4Nzc3MTMwMCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.eQZP4X9rEX8g9zkReOEbNB0tTrNww1AvrRd4CfNcUOPGXxEOpS4HUY94MOQmrbJSwZiQ4I1YENyc6FvbWSRHCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-26 17:20:40,596 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687771300277081853"}
+
+2023-06-26 17:20:41,663 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687771300277081853"}
+
+2023-06-26 17:39:38,697 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NzYwMzgsImlhdCI6MTY4Nzc3MjQzOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.pAv91R4shQ0EJeot1J6g6UHIzmR9HcFzzY9vzxOsCeBmw4Ls_-zU9s5KQodDZZcw6TN35CU6EwIEDbtqU9dEBQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-26 17:39:38,754 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687772438431940362"}
+
+2023-06-26 17:39:39,826 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687772438431940362"}
+
+2023-06-26 17:39:44,243 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:39:45,319 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-26 17:39:46,368 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-26 17:39:47,392 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-26 17:50:28,173 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc3NzY1OTksImlhdCI6MTY4Nzc3Mjk5OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjJBNURCMEU5RjFGRiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.boyO2vm2nIAUCgtMKgTwiq8QljVTi5AieUInEOhnCmGjGoa4zpOyRWTlfirPpzkp-XQGHQ0TEJHJ6ccwC1k-CA"},"nodeInfo":{"node":{"sn":"2A5DB0E9F1FF"}}}
+
+2023-06-26 17:50:28,237 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687772999081141040"}
+
+2023-06-26 17:50:29,308 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687772999081141040"}
+
+2023-06-26 17:50:44,190 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687773015031553800"}
+
+2023-06-26 17:50:45,257 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687773015031553800"}
+
+2023-06-27 09:24:05,574 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc4MzI2NDMsImlhdCI6MTY4NzgyOTA0MywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.0rIbun-6fGxxb5M6dHJkMOBy__kOwgr7KH5bi2z5PG0a3wkaoG9g5mTp5WfgzWt7Ce6qVTR1auFwFDWTd6GICA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-27 09:24:05,932 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687829043927572686"}
+
+2023-06-27 09:24:07,045 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687829043927572686"}
+
+2023-06-27 09:28:03,022 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc4MzI4ODEsImlhdCI6MTY4NzgyOTI4MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.b7LQWzyuRDyQSvQ9cp-It6jIgrQgRb0Id66R0WsDxk5BJeISTy8FWys4Sob5DopqNPsaoSjD6JS3S6FX81yaCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-27 09:28:03,085 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687829281080144611"}
+
+2023-06-27 09:28:04,141 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687829281080144611"}
+
+2023-06-27 09:29:36,390 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc4MzI5NzQsImlhdCI6MTY4NzgyOTM3NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.qPMKEw6EjiInsp0XzzQ8uRwzU9_4jUs3E5tBQQnf_3eCbOL-HqQq0F7KFNqp-axow92vPCEYgYJ93GBNg0U8DQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-27 09:29:36,459 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687829374454981640"}
+
+2023-06-27 09:29:37,523 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687829374454981640"}
+
+2023-06-27 09:39:58,227 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc4MzM1OTYsImlhdCI6MTY4NzgyOTk5NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.WmcRNvbACvdr8Hsl7jqF5LBNFFQMyXb0QmXBcD9vrL8QLJ2jN-7kEi8IK7BEvhDv7IfU6WkfCUC8xAB70T0ZBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-27 09:39:58,311 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687829996304700681"}
+
+2023-06-27 09:39:59,388 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687829996304700681"}
+
+2023-06-27 15:45:06,950 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-27 15:45:08,056 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-27 15:45:09,130 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-27 15:45:10,150 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-27 15:46:02,553 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc4NTU1NjAsImlhdCI6MTY4Nzg1MTk2MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.g8vY8IZYe-nlZLtoti4wY2Kf4y50CnekwsAYqujV7W5fHzlxBewG0-5SLtnmWCgXdqylOm-xiaY7FfFCXyF6Cg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-27 15:46:02,616 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687851960523081021"}
+
+2023-06-27 15:46:03,699 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687851960523081021"}
+
+2023-06-28 10:03:27,619 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:27,646 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:27,646 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:27,646 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:27,646 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:28,786 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:28,786 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:28,786 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:28,786 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:28,786 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-06-28 10:03:29,840 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:03:29,854 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:03:29,855 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:03:29,855 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:03:29,855 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:03:30,879 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-28 10:03:30,880 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-28 10:03:30,880 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-28 10:03:30,881 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-28 10:03:30,882 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-06-28 10:21:03,030 node.py[line:42] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODc5MjI0NjAsImlhdCI6MTY4NzkxODg2MCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.R8LPr8hW_MDIU855d4NAOOCd3xxy1C8W-JLPiJETCRP5KCl7Hl6SQYtQnmQ3rpjvta34BsduY9QTYuJjTMLOCA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-06-28 10:21:03,095 node.py[line:102] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1687918860767343257"}
+
+2023-06-28 10:21:04,153 node.py[line:102] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1687918860767343257"}
+
+2023-06-28 10:21:07,944 test_ui_task.py[line:64] INFO 输入文本：admin
+2023-06-28 10:21:09,018 test_ui_task.py[line:64] INFO 输入文本：admin
+2023-06-28 10:21:10,060 test_ui_task.py[line:51] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-06-28 10:21:11,077 test_ui_task.py[line:88] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>

@@ -1,0 +1,4 @@
+INFO     root:test_ui_task.py:62 输入文本：admin
+INFO     root:test_ui_task.py:62 输入文本：admin
+INFO     root:test_ui_task.py:49 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+INFO     root:test_ui_task.py:86 断言结果：<re.Match object; span=(29136, 29138), match='概览'>

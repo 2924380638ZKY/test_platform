@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 02 16:18:12 CST 2023","Fri Jun 02 16:18:20 CST 2023","8091","application.task_ui","test_ui_task","TestTask","","","盒子平台登录",""
+"passed","Fri Jun 02 16:18:27 CST 2023","Fri Jun 02 16:18:44 CST 2023","17815","application.task_ui","test_ui_task","TestTask","","","盒子平台添加镜像文件",""
+"passed","Fri Jun 02 16:18:20 CST 2023","Fri Jun 02 16:18:26 CST 2023","6363","application.task_ui","test_ui_task","TestTask","","","盒子平台添加IPC",""

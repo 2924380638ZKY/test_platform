@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Jun 06 11:53:00 CST 2023","Tue Jun 06 11:53:01 CST 2023","1013","application.task_ui","test_ui_task","TestTask","","","登录",""
+"broken","Tue Jun 06 11:53:01 CST 2023","Tue Jun 06 11:53:02 CST 2023","1021","application.task_ui","test_ui_task","TestTask","","","登录",""
+"broken","Tue Jun 06 11:52:58 CST 2023","Tue Jun 06 11:52:59 CST 2023","1384","application.task_ui","test_ui_task","TestTask","","","登录",""

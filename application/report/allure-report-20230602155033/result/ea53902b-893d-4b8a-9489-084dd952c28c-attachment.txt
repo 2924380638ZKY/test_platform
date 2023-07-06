@@ -1,0 +1,4 @@
+INFO     root:test_ui_task.py:60 输入文本：admin
+INFO     root:test_ui_task.py:60 输入文本：admin
+INFO     root:test_ui_task.py:47 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+INFO     root:test_ui_task.py:84 断言结果：<re.Match object; span=(133, 139), match='盒子配置后台'>

@@ -1,0 +1,6 @@
+{
+  "nodeWithToken": {
+    "Authorization": "Bearer",
+    "token": ""
+  }
+}

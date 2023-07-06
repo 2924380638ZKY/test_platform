@@ -1,0 +1,6 @@
+INFO     root:test_ui_task.py:55 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+INFO     root:test_ui_task.py:55 点击元素：//*[@id='tab-programUpload']
+INFO     root:test_ui_task.py:55 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+INFO     root:test_ui_task.py:86 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+INFO     root:test_ui_task.py:55 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+INFO     root:test_ui_task.py:97 断言结果：<re.Match object; span=(45727, 45731), match='镜像名称'>

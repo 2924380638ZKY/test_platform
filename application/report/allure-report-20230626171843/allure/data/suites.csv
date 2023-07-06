@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Mon Jun 26 17:18:45 CST 2023","Mon Jun 26 17:18:45 CST 2023","3","application.task_interface","test_interface_task","TestTask","","","test_task[case0]",""
+"broken","Mon Jun 26 17:18:47 CST 2023","Mon Jun 26 17:18:47 CST 2023","0","application.task_interface","test_interface_task","TestTask","","","test_task[case2]",""
+"broken","Mon Jun 26 17:18:46 CST 2023","Mon Jun 26 17:18:46 CST 2023","0","application.task_interface","test_interface_task","TestTask","","","test_task[case1]",""
+"passed","Mon Jun 26 17:18:45 CST 2023","Mon Jun 26 17:18:51 CST 2023","6356","application.task_ui","test_ui_task","TestTask","","","登录",""
