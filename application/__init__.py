@@ -3,9 +3,9 @@ from pymongo import MongoClient
 
 
 app = Flask(__name__)
-
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 # 连接MongoDB数据库
-client = MongoClient('mongodb://localhost:27017/')
+client = MongoClient('mongodb://172.16.40.10:27017/')
 db = client['test_platform']
 
 from application.case.model import model
