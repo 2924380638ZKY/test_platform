@@ -9,14 +9,16 @@ log = Blueprint("log", __name__, url_prefix="/api/v1/logs")
 api = Api(log)
 
 
+# 获取日志列表
 class Getlist(Resource):
     @token_auth
     def post(self):
         page = request.json.get("page")
         pageSize = request.json.get("pageSize")
         query = {}
+        # 跳过前N条记录，限制只展示pagesize条记录，倒序排序
         results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize).sort(
-            [("_id", -1)])  # 跳过前N条记录，限制只展示pagesize条记录
+            [("_id", -1)])
         data = [{"id": str(result["_id"]), "optUserId": result["optUserId"], "optUserName": result["optUserName"],
                  "optAccount": result["optAccount"],
                  "optModule": result["optModule"], "message": result["message"], "optTime": result["optTime"],

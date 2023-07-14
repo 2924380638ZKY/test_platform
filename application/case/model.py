@@ -18,6 +18,7 @@ kit = db["kit"]
 uiCase = db["uiCase"]
 
 
+# 新增模块
 class Add(Resource):
     @token_auth
     def post(self):
@@ -45,14 +46,16 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑模块
 class Edit(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         result = collection.update_one({"_id": ObjectId(data["id"])},
                                        {"$set": {"modelName": data["modelName"], "desc": data["desc"]}})
-        count = result.modified_count  # 影响的数据条数
-        if count > 0:
+        # 影响的数据条数
+        count = result.modified_count
+        if count >= 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
                  "optUserName": login_authority.user_data["data"]["username"],
@@ -73,6 +76,7 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除模块，如果模块有被使用，无法删除。现在顺序是按功能用例，接口，接口用例，事件，UI用例来。
 class Delete(Resource):
     @token_auth
     def post(self):
@@ -160,6 +164,7 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 获取某个模块的信息
 class Get(Resource):
     @token_auth
     def post(self):
@@ -171,15 +176,50 @@ class Get(Resource):
         return dict(code=1, messages="获取信息失败")
 
 
+# 维护模块，维护模块的节点，如果节点被使用了，维护失败
 class Maintain(Resource):
     @token_auth
     def post(self):
-        data = request.get_json()
-        result = collection.find_one({"_id": ObjectId(data["id"])})
+        # 获取原始的children_id列表和新的children_id列表，进行比较
+        original_children_ids = []
+        new_children_ids = []
+        new_data = request.get_json()
+        original_data = collection.find_one({"_id": ObjectId(new_data["id"])})
+        for original_model in original_data['modelList']:
+            for child in original_model['children']:
+                original_children_ids.append(child['id'])
+        for new_model in new_data['modelList']:
+            for child in new_model['children']:
+                new_children_ids.append(child['id'])
+                
+        # 如果这个原始id不在新的children列表里，并且这个原始id被使用了，返回维护失败
+        for original_children_id in original_children_ids:
+            used_in_abilityCase = abilityCase.find_one({"abilityModelId": original_children_id})
+            if original_children_id not in new_children_ids and used_in_abilityCase:
+                return dict(code=1, message="删除的子节点在功能用例中已被使用，维护失败")
+
+            used_in_interface = interface.find_one({"abilityModelId": original_children_id})
+            if original_children_id not in new_children_ids and used_in_interface:
+                return dict(code=1, message="删除的子节点在接口中已被使用，维护失败")
+
+            used_in_interfaceCase = interfaceCase.find_one({"abilityModelId": original_children_id})
+            if original_children_id not in new_children_ids and used_in_interfaceCase:
+                return dict(code=1, message="删除的子节点在接口用例中已被使用，维护失败")
+
+            used_in_event = event.find_one({"abilityModelId": original_children_id})
+            if original_children_id not in new_children_ids and used_in_event:
+                return dict(code=1, message="删除的子节点在事件中已被使用，维护失败")
+
+            used_in_uiCase = uiCase.find_one({"abilityModelId": original_children_id})
+            if original_children_id not in new_children_ids and used_in_uiCase:
+                return dict(code=1, message="删除的子节点在UI用例中已被使用，维护失败")
+
+        # 上述情况都没有，正常维护
+        result = collection.find_one({"_id": ObjectId(new_data["id"])})
         if result is not None:
-            collection.update_one({"_id": ObjectId(data["id"])},
-                                  {"$set": {"modelName": data["modelName"], "desc": data["desc"],
-                                            "modelList": data["modelList"]}})
+            collection.update_one({"_id": ObjectId(new_data["id"])},
+                                  {"$set": {"modelName": new_data["modelName"], "desc": new_data["desc"],
+                                            "modelList": new_data["modelList"]}})
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
                  "optUserName": login_authority.user_data["data"]["username"],
@@ -200,13 +240,15 @@ class Maintain(Resource):
         return dict(code=1, messages="维护失败")
 
 
+# 获取模块列表
 class Getlist(Resource):
     @token_auth
     def post(self):
         page = request.json.get("page")
         pageSize = request.json.get("pageSize")
         query = {}
-        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
+        # 跳过前N条记录，限制只展示pagesize条记录
+        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  
         dataList = [{"id": str(result["_id"]), "modelName": result["modelName"], "desc": result["desc"],
                      "modelList": result["modelList"]
                      } for result in results]
@@ -217,6 +259,7 @@ class Getlist(Resource):
         return dict(code=0, message="操作成功", data=data)
 
 
+# 模块用于查看时的信息数据返回
 class Transfer(Resource):
     @token_auth
     def post(self):
@@ -245,6 +288,7 @@ class Transfer(Resource):
         return dict(code=0, message="操作成功", data=models)
 
 
+# 下拉框数据
 class dropDown(Resource):
     @token_auth
     def post(self):

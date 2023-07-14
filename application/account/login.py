@@ -13,12 +13,14 @@ api = Api(login)
 account = db['account']
 
 
+# 返回授权的code到浏览器
 class GetCode(Resource):
     def post(self):
         code = getCode + "?client_id=" + clientId + "&response_type=code&redirect_uri=" + login_url
         return dict(code=0, message=code)
 
 
+# 进行登录，将登录成功后的信息保存到库里
 class Login(Resource):
     def post(self):
         auth = HTTPBasicAuth(clientId, clientSecret)
@@ -44,6 +46,7 @@ class Login(Resource):
             return dict(code=1, message="登录失败")
 
 
+# 注销，退出登录
 class Logout(Resource):
     def post(self):
         token = request.json.get("token")

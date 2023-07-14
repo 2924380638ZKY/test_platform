@@ -12,12 +12,13 @@ api = Api(interface)
 log = db["log"]
 
 
+# 新增接口
 class Add(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         data["lastModifiedTime"] = str(datetime.now())
-        data["lastModifiedBy"] = "admin"
+        data["lastModifiedBy"] = login_authority.user_data["data"]["account"]
         data_id = collection.insert_one(data).inserted_id
         if data_id is not None:
             log.insert_one(
@@ -40,6 +41,7 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑接口
 class Edit(Resource):
     @token_auth
     def post(self):
@@ -49,8 +51,9 @@ class Edit(Resource):
                                                  "abilityModelId": data["abilityModelId"],
                                                  "method": data["method"], "url": data["url"],
                                                  "desc": data["desc"],
-                                                 "lastModifiedTime": str(datetime.now()), "lastModifiedBy": "admin"}})
-        count = result.modified_count  # 影响的数据条数
+                                                 "lastModifiedTime": str(datetime.now()), "lastModifiedBy": login_authority.user_data["data"]["account"]}})
+        # 影响的数据条数
+        count = result.modified_count
         if count > 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
@@ -72,11 +75,13 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除接口
 class Delete(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         interfaceCase = db["interfaceCase"]
+        # 如果接口在接口用例中被使用了，无法删除
         used_in_interfaceCase = interfaceCase.find_one({"interfaceId": data["id"]})
         if used_in_interfaceCase:
             log.insert_one(
@@ -112,6 +117,7 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 获取某个接口的信息
 class Get(Resource):
     @token_auth
     def post(self):
@@ -125,6 +131,7 @@ class Get(Resource):
         return dict(code=1, messages="获取信息失败")
 
 
+# 获取接口列表
 class Getlist(Resource):
     @token_auth
     def post(self):
@@ -132,7 +139,6 @@ class Getlist(Resource):
         pageSize = request.json.get("pageSize")
         abilityModelId = request.json.get("abilityModelId")
         interfaceName = request.json.get("interfaceName")
-
         query = {}
         if abilityModelId:
             if len(abilityModelId) == 1:
@@ -142,8 +148,10 @@ class Getlist(Resource):
             else:
                 query["abilityModelId"] = abilityModelId
         if interfaceName:
-            query["interfaceName"] = {"$regex": interfaceName, "$options": "i"}  # 模糊查询，匹配区分大小写
-        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
+            # 模糊查询，匹配区分大小写
+            query["interfaceName"] = {"$regex": interfaceName, "$options": "i"}
+        # 跳过前N条记录，限制只展示pagesize条记录
+        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)
         data = [{"id": str(result["_id"]), "abilityModelId": result["abilityModelId"],
                  "interfaceName": result["interfaceName"],
                  "url": result["url"],
@@ -163,6 +171,7 @@ class Getlist(Resource):
         return dict(code=0, message="操作成功", data=response_data)
 
 
+# 接口用例中的接口下拉框
 class dropDown(Resource):
     @token_auth
     def post(self):
@@ -176,8 +185,7 @@ class dropDown(Resource):
             else:
                 query["abilityModelId"] = abilityModelId
         results = collection.find(query)
-        data = [{"id": str(result["_id"]), "interfaceName": result["interfaceName"]
-                 } for result in results]
+        data = [{"id": str(result["_id"]), "interfaceName": result["interfaceName"]} for result in results]
         return dict(code=0, message="操作成功", data=data)
 
 

@@ -14,6 +14,7 @@ api = Api(site)
 log = db["log"]
 
 
+# 添加站点
 class Add(Resource):
     @token_auth
     def post(self):
@@ -40,6 +41,7 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑站点
 class Edit(Resource):
     @token_auth
     def post(self):
@@ -48,8 +50,9 @@ class Edit(Resource):
                                        {"$set": {"webSiteName": data["webSiteName"], "webSiteType": data["webSiteType"],
                                                  "webSiteIp": data["webSiteIp"],
                                                  "desc": data["desc"]}})
-        count = result.modified_count  # 影响的数据条数
-        if count > 0:
+        # 影响的数据条数
+        count = result.modified_count
+        if count >= 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
                  "optUserName": login_authority.user_data["data"]["username"],
@@ -70,6 +73,7 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除站点
 class Delete(Resource):
     @token_auth
     def post(self):
@@ -91,12 +95,13 @@ class Delete(Resource):
              "optUserName": login_authority.user_data["data"]["username"],
              "optAccount": login_authority.user_data["data"]["account"],
              "optModule": "站点管理", "message": "删除站点", "optTime": str(datetime.now()),
-                 "ip": request.remote_addr, "optSuccess": "False",
+             "ip": request.remote_addr, "optSuccess": "False",
              "roleId": login_authority.user_data["data"]["roleInfos"][0]["roleId"],
              "roleName": login_authority.user_data["data"]["roleInfos"][0]["roleName"]})
         return dict(code=1, messages="删除失败")
 
 
+# 获取某个站点信息
 class Get(Resource):
     @token_auth
     def post(self):
@@ -111,6 +116,7 @@ class Get(Resource):
         return dict(code=1, messages="获取信息失败")
 
 
+# 获取站点列表信息
 class Getlist(Resource):
     @token_auth
     def post(self):
@@ -119,11 +125,13 @@ class Getlist(Resource):
         webSiteName = request.json.get("webSiteName")
         webSiteType = request.json.get("webSiteType")
         query = {}
+        # 模糊查询，匹配区分大小写
         if webSiteName:
-            query["webSiteName"] = {"$regex": webSiteName, "$options": "i"}  # 模糊查询，匹配区分大小写
+            query["webSiteName"] = {"$regex": webSiteName, "$options": "i"}
         if webSiteType:
             query["webSiteType"] = webSiteType
-        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
+        # 跳过前N条记录，限制只展示pagesize条记录
+        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)
         data = [{"id": str(result["_id"]), "webSiteName": result["webSiteName"], "webSiteType": result["webSiteType"],
                  "webSiteIp": result["webSiteIp"],
                  "desc": result["desc"]
@@ -140,6 +148,7 @@ class Getlist(Resource):
         return dict(code=0, message="操作成功", data=response_data)
 
 
+# 站点下拉框数据
 class dropDown_site(Resource):
     @token_auth
     def post(self):

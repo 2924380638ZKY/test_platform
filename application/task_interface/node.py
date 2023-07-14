@@ -1,4 +1,5 @@
 import json
+import os
 from time import sleep
 
 import allure
@@ -35,8 +36,10 @@ class WithoutToken:
         else:
             test_method = ""
         r = requests.request(method=test_method, url=test_url, json=content["json"])
+        logger.info("请求地址:" + test_url)
+        logger.info("请求体:" + str(content["json"]))
         rsp = r.text
-        logger.info(rsp)
+        logger.info("返回体:" + rsp)
         if 'data' in json.loads(rsp):
             login_token = json.loads(rsp)["data"]["token"]
         elif 'userInfo' in json.loads(rsp):
@@ -46,6 +49,7 @@ class WithoutToken:
             # 解析返回值并填充到全局字典
             Parsedepend.parseDepend(r.text, content["extractFields"], depend_dicts)
         rsp = json.loads(rsp)
+        logger.info("断言:" + str(content["expectResult"]))
         for key, value in (content["expectResult"]).items():
             assert rsp[key] == value
 
@@ -80,27 +84,35 @@ class WithToken:
         headers = self.header
         if content["testDataType"] == 3:
             file_data = file.find_one({"fileName": content["json"]})
-            downLoad = {"objectId": file_data["resourceId"]}
-            download_address = requests.request(method="post",
-                                                url=platform_downLoad_url,
-                                                json=downLoad)
 
-            if (json.loads(download_address.text)["data"]) is None:
-                raise Exception("没有找到该文件!")
+            if not file_data:
+                raise Exception("没有叫这个名字的文件!")
+            else:
+                downLoad = {"objectId": file_data["resourceId"]}
+                download_address = requests.request(method="post",
+                                                    url=platform_downLoad_url,
+                                                    json=downLoad)
+                if (json.loads(download_address.text)["data"]) is None:
+                    raise Exception("没有找到该文件!")
 
-            download_response = requests.get(json.loads(download_address.text)["data"])
-            file_content = download_response.content
-            files = {'uploadfile': (content["json"], file_content)}
-            r = requests.request(method=test_method, url=test_url, headers=headers, files=files)
+                download_response = requests.get(json.loads(download_address.text)["data"])
+                file_content = download_response.content
+                with open("application/file_storage/" + content['json'], 'wb') as f:
+                    f.write(file_content)
+                absp = os.path.abspath("application/file_storage/" + content['json'])
+                filedatas = open(absp, 'rb')
+                r = requests.request(method=test_method, url=test_url, headers=headers, files={"uploadfile": filedatas})
         else:
             r = requests.request(method=test_method, url=test_url, json=content["json"], headers=headers)
-
+        logger.info("请求地址:" + test_url)
+        logger.info("请求体:" + str(content["json"]))
         rsp = r.text
-        logger.info(rsp)
+        logger.info("返回体:" + rsp)
         # 判断是否有被依赖字段
         if len(content["extractFields"]) != 0:
             Parsedepend.parseDepend(r.text, content["extractFields"], depend_dicts)
         rsp = json.loads(rsp)
         sleep(1)
+        logger.info("断言:" + str(content["expectResult"]))
         for key, value in (content["expectResult"]).items():
             assert rsp[key] == value

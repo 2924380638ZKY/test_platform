@@ -14,18 +14,20 @@ class Util:
             data = yaml.load(f, Loader=yaml.FullLoader)
             return data
 
-    def screen_path_succ(self, item):  # 截图目录
+    def screen_path_succ(self, item):
         screenshot_dir = "application/report/screen_capture"
         if not os.path.exists(screenshot_dir):
-            os.makedirs(screenshot_dir)  # 创建生成目录
-        screen_file = os.path.join(screenshot_dir, "成功{}.png".format(item.function.__name__))  # 字符串格式化输出，{}代表内容
+            os.makedirs(screenshot_dir)
+        # 字符串格式化输出，{}代表内容
+        screen_file = os.path.join(screenshot_dir, "成功{}.png".format(item.function.__name__))
         return screen_file
 
-    def screen_path_fail(self, item):  # 截图目录
+    def screen_path_fail(self, item):
         screenshot_dir = "application/report/screen_capture"
         if not os.path.exists(screenshot_dir):
-            os.makedirs(screenshot_dir)  # 创建生成目录
-        screen_file = os.path.join(screenshot_dir, "失败{}.png".format(item.function.__name__))  # 字符串格式化输出，{}代表内容
+            os.makedirs(screenshot_dir)
+        # 字符串格式化输出，{}代表内容
+        screen_file = os.path.join(screenshot_dir, "失败{}.png".format(item.function.__name__))
         return screen_file
 
 

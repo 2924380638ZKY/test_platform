@@ -25,6 +25,7 @@ depend_dicts = {}
 use_data = {}
 
 
+# 添加任务
 class Add(Resource):
     @token_auth
     def post(self):
@@ -55,6 +56,7 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑任务
 class Edit(Resource):
     @token_auth
     def post(self):
@@ -62,8 +64,9 @@ class Edit(Resource):
         result = collection.update_one({"_id": ObjectId(data["id"])},
                                        {"$set": {"type": data["type"], "taskName": data["taskName"],
                                                  "kitId": data["kitId"], "desc": data["desc"]}})
-        count = result.modified_count  # 影响的数据条数
-        if count > 0:
+        # 影响的数据条数
+        count = result.modified_count
+        if count >= 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
                  "optUserName": login_authority.user_data["data"]["username"],
@@ -84,6 +87,7 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除任务
 class Delete(Resource):
     @token_auth
     def post(self):
@@ -111,6 +115,7 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 任务选择套件时的套件下拉框
 class dropDown_kit(Resource):
     @token_auth
     def post(self):
@@ -128,6 +133,7 @@ class dropDown_kit(Resource):
         return dict(code=0, data=sum1)
 
 
+# 任务下拉框列表
 class Getlist(Resource):
     @token_auth
     def post(self):
@@ -140,9 +146,10 @@ class Getlist(Resource):
         if type:
             query["type"] = type
         if taskName:
-            query["taskName"] = {"$regex": taskName, "$options": "i"}  # 模糊查询，匹配区分大小写
+            # 模糊查询，匹配区分大小写
+            query["taskName"] = {"$regex": taskName, "$options": "i"}
         if kitName:
-            query["kitName  "] = kitName
+            query["kitName"] = {"$regex": kitName, "$options": "i"}
         results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
         data = [{"id": str(result["_id"]), "type": result["type"], "taskName": result["taskName"],
                  "kitName": result["kitName"], "kitId": result["kitId"],
@@ -162,14 +169,17 @@ class Getlist(Resource):
 
 
 def asyncz(f):
-    @wraps(f)  # 元信息复制
-    def wrapper(*args, **kwargs):  # 启用新线程
+    # 元信息复制
+    @wraps(f)
+    # 启用新线程，用于异步执行任务，先返回状态码给前端，再进行执行任务
+    def wrapper(*args, **kwargs):
         thr = Thread(target=f, args=args, kwargs=kwargs)
         thr.start()
 
     return wrapper
 
 
+# 返回选择的任务的套件中的用例信息
 def get_test_message(data):
     test_task = collection.find_one({"_id": ObjectId(data["id"])})
     test_kit = kit.find_one({"_id": ObjectId(test_task["kitId"])})
@@ -187,13 +197,15 @@ def run_task(data, account_name):
         os.makedirs("application/report/" + report_name)
 
     global depend_dicts
-    if test_task["type"] == 2:  # UI
+    # UI
+    if test_task["type"] == 2:
         pytest.main(
             ["application/task_ui/test_ui_task.py", "-vs", "--url", "http://" + test_site['webSiteIp'] + "/#/login",
              "--alluredir", "application/report/" + report_name + "/result", "--clean-alluredir"])
         os.system(
             "allure generate application/report/" + report_name + "/result -o application/report/" + report_name + "/allure --clean")
-    elif test_task["type"] == 3:  # 接口
+    # 接口
+    elif test_task["type"] == 3:
         pytest.main(
             ["application/task_interface/test_interface_task.py", "-vs", "--url", "http://" + test_site['webSiteIp'],
              "--alluredir", "application/report/" + report_name + "/result", "--clean-alluredir"])
@@ -209,10 +221,12 @@ def run_task(data, account_name):
     collection.update_one({"_id": ObjectId(data["id"])}, {"$set": {"status": 2}})
 
 
+# 运行任务接口
 class Run(Resource):
     @token_auth
     def post(self):
         global use_data
+        # 任务信息
         use_data = request.get_json()
         collection.update_one({"_id": ObjectId(use_data["id"])},
                               {"$set": {"status": 1}})
@@ -225,7 +239,6 @@ class Run(Resource):
              "ip": request.remote_addr, "optSuccess": "True",
              "roleId": login_authority.user_data["data"]["roleInfos"][0]["roleId"],
              "roleName": login_authority.user_data["data"]["roleInfos"][0]["roleName"]})
-
         run_task(use_data, account_name)
         return dict(code=0, message="操作成功")
 

@@ -25,16 +25,17 @@ class TestTask:
         global password1
         allure.dynamic.title(case["caseName"])
         allure.dynamic.severity(case["priority"])
-        drivers.get(node_url)  # case:用例的信息
+        # case:用例的信息
+        drivers.get(node_url)
         count = 0
         if case['login']:
-            drivers.implicitly_wait(120)
             drivers.get(node_url)
             drivers.find_element(By.XPATH, "//*[@id='app']/div/div[2]/form/div[2]/div/div/div/input").send_keys(
                 account1)
             drivers.find_element(By.XPATH, "//*[@id='app']/div/div[2]/form/div[3]/div/div[1]/div/input").send_keys(
                 password1)
             drivers.find_element(By.XPATH, "//*[@id='app']/div/div[2]/form/div[5]/div/button").click()
+            sleep(1)
         for item in case["eventStep"]:
             event_data = event.find_one({"_id": ObjectId(item["eventId"])})
             for step_data in event_data["step"]:
@@ -60,6 +61,8 @@ class TestTask:
                         raise Exception("事件要求的输入名称和用例中的数据名称不符合")
                     sleep(1)
                     logger.info("输入文本：{}".format(case['testData'][variable]))
+                elif keyword == "sleep":
+                    sleep(case['testData'][variable])
                 elif keyword == 'upload':
                     element = drivers.find_element(By.XPATH, xpath)
                     file_data = file.find_one({"fileName": case['testData'][variable]})

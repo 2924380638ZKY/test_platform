@@ -1432,3 +1432,236 @@
 2023-06-28 10:21:09,018 test_ui_task.py[line:64] INFO 输入文本：admin
 2023-06-28 10:21:10,060 test_ui_task.py[line:51] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
 2023-06-28 10:21:11,077 test_ui_task.py[line:88] INFO 断言结果：<re.Match object; span=(29136, 29138), match='概览'>
+2023-07-06 14:41:39,240 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg2MjkyNDcsImlhdCI6MTY4ODYyNTY0NywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjYiLCJrdCI6InVzZXIiLCJzbiI6IjJBNURCMEU5RjFGRiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.zPSaIOe6k8PWTzecoAzcgknywg8lVOM7PYMUWtB5KpetZLkeIptfq7fMiFtsYfz4RRjlOTESgcTk8sqjOadeDA"},"nodeInfo":{"node":{"sn":"2A5DB0E9F1FF"}}}
+
+2023-07-06 14:41:39,341 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1688625647278983740"}
+
+2023-07-06 14:41:40,405 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1688625647278983740"}
+
+2023-07-06 14:42:50,061 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-06 14:42:51,166 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-06 14:42:52,214 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-06 14:42:53,235 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29134, 29136), match='概览'>
+2023-07-06 14:44:21,878 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg2Mjk0MDksImlhdCI6MTY4ODYyNTgwOSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjJBNURCMEU5RjFGRiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.5KQjYfEZlCEFKQOyYhQIUcZQ0cFqP8vP1QJCgGHDDsuFF7aFhFHCXUAtFQsycyMtpfYS03aOhOlPAlFU1RMhAQ"},"nodeInfo":{"node":{"sn":"2A5DB0E9F1FF"}}}
+
+2023-07-06 14:44:21,934 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1688625809871279100"}
+
+2023-07-06 14:44:23,000 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1688625809871279100"}
+
+2023-07-06 14:46:00,063 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg2Mjk1MDgsImlhdCI6MTY4ODYyNTkwOCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjJBNURCMEU5RjFGRiIsInVzZXJuYW1lIjoiYWRtaW4ifQ.Wuzmt2o0IKM-EGfPLwzjYNDS2xF-0d3eja4DtLdNIOhleiA5zlxU9hd3XXSMTddETOtJSenkAHko2TbGQHfBBQ"},"nodeInfo":{"node":{"sn":"2A5DB0E9F1FF"}}}
+
+2023-07-06 14:46:00,134 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1688625908071590120"}
+
+2023-07-06 14:46:01,193 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1688625908071590120"}
+
+2023-07-07 10:28:02,547 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg3MDA0ODIsImlhdCI6MTY4ODY5Njg4MiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.JAUn3C9jFmr4Ai8YnWANWubL8uC_Pod1BENh3KFKB_DumCQsdsXcTK0sCboVcdcrmEV4gieK9TJGXrvXI0OPDA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-07 10:28:02,599 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1688696882588710217"}
+
+2023-07-07 10:28:03,647 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1688696882588710217"}
+
+2023-07-07 10:30:36,303 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 10:30:37,368 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 10:30:38,412 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 10:30:39,428 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29083, 29085), match='概览'>
+2023-07-07 14:20:21,325 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:20:22,442 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:20:23,484 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 14:20:24,495 test_ui_task.py[line:86] INFO 断言结果：None
+2023-07-07 14:24:47,171 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:24:48,237 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:24:49,276 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 14:24:50,295 test_ui_task.py[line:86] INFO 断言结果：None
+2023-07-07 14:26:26,661 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:26:27,728 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:26:28,772 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 14:26:29,863 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29083, 29085), match='概览'>
+2023-07-07 14:30:03,952 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:30:05,035 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 14:30:06,078 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 14:30:07,170 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29084, 29086), match='概览'>
+2023-07-07 17:26:16,661 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 17:26:17,807 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-07 17:26:18,895 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-07 17:26:19,986 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29084, 29086), match='概览'>
+2023-07-08 09:55:19,724 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-08 09:55:20,834 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-08 09:55:21,884 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-08 09:55:22,992 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29084, 29086), match='概览'>
+2023-07-10 17:18:11,961 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-10 17:18:13,092 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-10 17:18:14,187 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-10 17:18:15,245 test_ui_task.py[line:86] INFO 断言结果：<re.Match object; span=(29137, 29139), match='概览'>
+2023-07-10 17:42:13,121 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg5ODU3MzEsImlhdCI6MTY4ODk4MjEzMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.Wzau3uGADmxEpqDscSRrc5TlEjr5qtE_T8ys1fCgF-lhEgKkkNlIEXBwBXgEsbuncG_-3zUOd2M34mVKS4EoAA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-10 17:42:13,241 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1688982131889785883"}
+
+2023-07-10 17:42:14,375 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1688982131889785883"}
+
+2023-07-11 16:26:43,933 node.py[line:39] INFO {"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjc2MTQsImlhdCI6MTY4OTA2NDAxNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.iU_2uL0LPFZveCA9Gns5fUFCr4WRWTYGBUKUKOcW3XW1VT4yhr0g9_ENpEdHBl7ZR8aPkcNRAaD-dFz4VfmWCw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:26:44,139 node.py[line:99] INFO {"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1689064014325173165"}
+
+2023-07-11 16:26:45,266 node.py[line:99] INFO {"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1689064014325173165"}
+
+2023-07-11 16:31:25,118 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:31:42,691 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:32:59,032 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:32:59,032 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:32:59,042 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjc5ODksImlhdCI6MTY4OTA2NDM4OSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.NPi8qZf8efUgVXrQsVoiZG99m84AKslIHV2gc4MXhX31EpJ0DbkYBMlfdz3_9YPnicH3_KsnVz6CaBhZdIAACg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:32:59,042 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:32:59,188 node.py[line:100] INFO 请求地址:http://10.1.40.228/api/v2/node/videoSource/add?language=zh_CN
+2023-07-11 16:32:59,188 node.py[line:101] INFO 请求体:{'videoResourceInfo': {'sourceInfo': {'name': '1', 'serial': '1', 'position': '1', 'ip': '10.1.40.1', 'sourceUrl': '123'}, 'type': 2}, 'sn': '2A5DB0E9F1FF', 'transId': '5891cb1b-dd72-4e47-8488-ed26d60e0785'}
+2023-07-11 16:32:59,188 node.py[line:103] INFO 返回体:{"code":0,"message":"","transId":"5891cb1b-dd72-4e47-8488-ed26d60e0785","sn":"2A5DB0E9F1FF","id":"1689064389370474134"}
+
+2023-07-11 16:33:00,192 node.py[line:109] INFO 断言:{'code': 0}
+2023-07-11 16:33:00,330 node.py[line:100] INFO 请求地址:http://10.1.40.228/api/v2/node/videoSource/delete?language=zh_CN
+2023-07-11 16:33:00,330 node.py[line:101] INFO 请求体:{'id': '1689064389370474134', 'sn': '2A5DB0E9F1FF', 'transId': '0d8e1cb5-4f28-4bfc-8724-aeaedbb70975'}
+2023-07-11 16:33:00,330 node.py[line:103] INFO 返回体:{"code":0,"message":"","transId":"0d8e1cb5-4f28-4bfc-8724-aeaedbb70975","sn":"2A5DB0E9F1FF","id":"1689064389370474134"}
+
+2023-07-11 16:33:01,342 node.py[line:109] INFO 断言:{'code': 0}
+2023-07-11 16:38:56,541 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:38:56,542 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:38:56,542 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjgzNDYsImlhdCI6MTY4OTA2NDc0NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.YRMlq3RbOYI6nE40bU8ShiRIwYC1nOJC7gIIKGmqq-d8SeMlDsY2AjNv4v0KAufGNSwecU55xx3xi3lnpExkBg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:38:56,542 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:39:01,927 node.py[line:100] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 16:39:01,927 node.py[line:101] INFO 请求体:协转
+2023-07-11 16:39:01,927 node.py[line:103] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 16:39:02,934 node.py[line:109] INFO 断言:{'code': 0}
+2023-07-11 16:41:53,669 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:41:53,669 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:41:53,669 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjg1MjMsImlhdCI6MTY4OTA2NDkyMywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.yfBzXm6aSAk0_TOHG1tga0tBpTGPGAyM64WqqJoC3w_VMLdlGxAV3LvkAspQdhmFr-yl_9IHl-T50Ni_IUDYAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:41:53,669 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:41:59,433 node.py[line:101] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 16:41:59,434 node.py[line:102] INFO 请求体:协转
+2023-07-11 16:41:59,434 node.py[line:104] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 16:42:00,443 node.py[line:110] INFO 断言:{'code': 0}
+2023-07-11 16:43:58,213 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:43:58,214 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:43:58,214 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjg2NDgsImlhdCI6MTY4OTA2NTA0OCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.7BrOPIG9ZBb5S5HOrSMN24d9Mru37aE02uQV6Fj_eXBPJ3mQbtUrBghPomDy4kta289loGOC5cWo-YvsoCpPBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:43:58,214 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:44:03,119 node.py[line:101] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 16:44:03,119 node.py[line:102] INFO 请求体:协转
+2023-07-11 16:44:03,119 node.py[line:104] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 16:44:04,122 node.py[line:110] INFO 断言:{'code': 0}
+2023-07-11 16:45:14,549 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:45:14,549 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:45:14,549 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjg3MjQsImlhdCI6MTY4OTA2NTEyNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjciLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.o7d0VbNqIReACeSeMwWX_udI1ISoLKZU453OoGko-YMsyOL6xF_H8iQ6whuU6zlT2gNhDdO4fnwB3_FbP8PrCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:45:14,550 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:45:20,048 node.py[line:101] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 16:45:20,048 node.py[line:102] INFO 请求体:协转
+2023-07-11 16:45:20,049 node.py[line:104] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 16:45:21,056 node.py[line:110] INFO 断言:{'code': 0}
+2023-07-11 16:46:34,020 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:46:34,020 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:46:34,020 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjg4MDQsImlhdCI6MTY4OTA2NTIwNCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.EQk8iYIWHn21-nScNJFW6ypWMhu-UQTNqhLNbaD5jDYIIRJ-tKuw1lOP2M1JUZ6QDNjdbXjdNGa_ipdCAzuvDg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:46:34,020 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:46:41,316 node.py[line:101] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 16:46:41,316 node.py[line:102] INFO 请求体:协转
+2023-07-11 16:46:41,316 node.py[line:104] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 16:46:42,324 node.py[line:110] INFO 断言:{'code': 0}
+2023-07-11 16:49:31,094 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:49:31,094 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:49:31,094 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjg5ODEsImlhdCI6MTY4OTA2NTM4MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjEiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.q-2Vka86kzgNMr6pdg1-lHfIrbsDyp5TbprwFgMZVC0SH100_Q6de62L3Z9q6xOV-IFaYlVSKmoxCw98-F8eAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:49:31,094 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:51:54,897 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:51:54,897 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:51:54,897 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjkxMjUsImlhdCI6MTY4OTA2NTUyNSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjAiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.LrEczZn2lUk8u7tvLLeMyoITw-0od3Z2-4HmF8F5_pzt-lkTUubKptu4qmvb3UpQ2zhQdRomGKNmVGlym21tCg"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:51:54,897 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:56:11,060 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:56:11,060 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:56:11,060 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjkzODEsImlhdCI6MTY4OTA2NTc4MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.roMIMnUkcf5CpEOBRJH2t2pNsob9Tl_ByWHluamc7Vgc5uXkgcMYwNgWqppEwuwNpFoRX_dUVKZvDYDn9ZiyDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:56:11,060 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:57:31,553 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:57:31,554 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:57:31,554 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk0NjEsImlhdCI6MTY4OTA2NTg2MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjgiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.u78KDTO5ZRSlV2lIpbnoCR19In9K_5cosKtH6lLYn5t8QzqSPF_MmPX-cJZ1q6SYboBMK_ig9VjoPzzrcik8Ag"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:57:31,554 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:58:30,981 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:58:30,981 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:58:30,982 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk1MjEsImlhdCI6MTY4OTA2NTkyMSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.M-f0_sBGLIlnLTTKFygL_cXnY_9wtBu3yrQ_csevz1RmMCTmouCO5rlqCeejiZjUp1apJbnsTXl5VsUDDSjJCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:58:30,982 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:59:05,855 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:59:05,855 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:59:05,855 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk1NTYsImlhdCI6MTY4OTA2NTk1NiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjMiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.6ehFPZ9TMet1fUxUfQhfvbyAPeWhh3-aZ_rlgr3d39d8ML7RMu3oXgGX5mIFJ8nw5m8P3G7p1w5tJXzXw4EXBA"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:59:05,855 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 16:59:52,909 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 16:59:52,909 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 16:59:52,909 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk2MDMsImlhdCI6MTY4OTA2NjAwMywiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.gjC2ap4PI2kq7w9xGNul-VDoWkVJFf3OY643h8G6RcIOHpygpTFTfJR4UKcdPgM4XuciH8QCj3ZdtyRC5EtwDQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 16:59:52,909 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 17:00:41,113 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 17:00:41,113 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 17:00:41,113 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk2NTEsImlhdCI6MTY4OTA2NjA1MSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjQiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.o5qRivdQv5pILFKIsEdD-Odka9m7OC6ChCwQz0EO4cCRAaqthnaTQN_8Is-t5xL4zBTLTW1uKy2c_fM9xuCfAw"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 17:00:41,114 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 17:01:24,146 node.py[line:38] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 17:01:24,146 node.py[line:39] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 17:01:24,147 node.py[line:41] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk2OTQsImlhdCI6MTY4OTA2NjA5NCwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjIiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.YhpUBleVXGPF6GwrQNY1nY3_o_Q7xZ_rzjJjYoQIZXj0BJEGxF4b6VKODWvJXSQWzVNEHuzFbsCYYU8hjbfrCQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 17:01:24,147 node.py[line:51] INFO 断言:{'code': 0}
+2023-07-11 17:01:29,437 node.py[line:104] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 17:01:29,437 node.py[line:105] INFO 请求体:协转
+2023-07-11 17:01:29,438 node.py[line:107] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 17:01:30,448 node.py[line:113] INFO 断言:{'code': 0}
+2023-07-11 17:04:55,661 node.py[line:39] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 17:04:55,661 node.py[line:40] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 17:04:55,661 node.py[line:42] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNjk5MDUsImlhdCI6MTY4OTA2NjMwNSwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjkiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.dHaxbDQze2fkXUHsvlKvnAqV2VT7jD_yhRQTYzosDYM2G0om1EvWCmqqZXqDAXWB_6eq6YFwaKiegX7T78-hAQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 17:04:55,661 node.py[line:52] INFO 断言:{'code': 0}
+2023-07-11 17:05:02,284 node.py[line:107] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 17:05:02,285 node.py[line:108] INFO 请求体:协转
+2023-07-11 17:05:02,285 node.py[line:110] INFO 返回体:{"code":20700,"message":"upgrade delegate application fail:wrong mode"}
+
+2023-07-11 17:05:03,295 node.py[line:116] INFO 断言:{'code': 0}
+2023-07-11 17:07:06,406 node.py[line:39] INFO 请求地址:http://10.1.40.228/api/v2/node/login?language=zh_CN
+2023-07-11 17:07:06,406 node.py[line:40] INFO 请求体:{'account': 'admin', 'password': '21232f297a57a5a743894a0e4a801fc3', 'platform': 'PC', 'remember': False, 'autoLogin': False, 'language': 'zh_CN'}
+2023-07-11 17:07:06,406 node.py[line:42] INFO 返回体:{"code":0,"message":"","userInfo":{"account":"admin","userId":"admin","userName":"admin","token":"eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODkwNzAwMzYsImlhdCI6MTY4OTA2NjQzNiwiaWQiOiJhZG1pbiIsImlzcyI6ImFpcGFhcyIsImp0aSI6IiIsImtpZCI6IjUiLCJrdCI6InVzZXIiLCJzbiI6IjMyODE1MzczMWY0ZTRkNGQ0NzM0ZmZmZjg4Mzg2YjAzIiwidXNlcm5hbWUiOiJhZG1pbiJ9.TRMzr_G9VM5pO0fPDRlyKvCm0CitZTiTAW0GGUUKGEGUCcOkmmzQXBzsUAO12kfoV9LXZq-eLjSl-KwM-qG4CQ"},"nodeInfo":{"node":{"sn":"328153731f4e4d4d4734ffff88386b03"}}}
+
+2023-07-11 17:07:06,406 node.py[line:52] INFO 断言:{'code': 0}
+2023-07-11 17:07:13,433 node.py[line:107] INFO 请求地址:http://10.1.40.228/api/v2/node/delegate/application/add?language=zh_CN
+2023-07-11 17:07:13,433 node.py[line:108] INFO 请求体:ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-07-11 17:07:13,433 node.py[line:110] INFO 返回体:{"code":0,"message":"","applicationInfo":{"id":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationId":"sha256:3c200f33b535d8db1f708db2ba532c46093043b05510bf475858dc73cec56ff5","applicationName":"ai/faas/app/conver","tag":"2.0.14.caad8f9f.20230227.test","applicationPackgeName":"ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar","operateTime":{"createTime":"2023-07-11 17:07:23","lastUpdateTime":"2023-07-11 17:07:23"}}}
+
+2023-07-11 17:07:14,441 node.py[line:116] INFO 断言:{'code': 0}
+2023-07-11 17:26:58,301 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-07-11 17:26:59,388 test_ui_task.py[line:61] INFO 输入文本：admin
+2023-07-11 17:27:00,444 test_ui_task.py[line:48] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-11 17:27:01,488 test_ui_task.py[line:87] INFO 断言结果：<re.Match object; span=(29135, 29137), match='概览'>
+2023-07-11 17:30:17,943 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-11 17:30:19,021 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-11 17:30:20,069 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-11 17:30:21,086 test_ui_task.py[line:88] INFO 断言结果：<re.Match object; span=(29137, 29139), match='概览'>
+2023-07-11 17:30:23,924 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-07-11 17:30:25,000 test_ui_task.py[line:49] INFO 点击元素：//*[@id='tab-programUpload']
+2023-07-11 17:30:26,068 test_ui_task.py[line:49] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-07-11 17:30:30,137 test_ui_task.py[line:82] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-07-11 17:30:31,178 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-07-11 17:30:41,194 test_ui_task.py[line:93] INFO 断言结果：<re.Match object; span=(46755, 46821), match='ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.>
+2023-07-11 17:34:26,230 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-11 17:34:27,312 test_ui_task.py[line:62] INFO 输入文本：admin
+2023-07-11 17:34:28,361 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/div[2]/form/div[5]/div/button
+2023-07-11 17:34:29,384 test_ui_task.py[line:88] INFO 断言结果：<re.Match object; span=(29137, 29139), match='概览'>
+2023-07-11 17:34:32,221 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/aside/ul/li[6]
+2023-07-11 17:34:33,278 test_ui_task.py[line:49] INFO 点击元素：//*[@id='tab-programUpload']
+2023-07-11 17:34:34,332 test_ui_task.py[line:49] INFO 点击元素：//*[@id='pane-programUpload']/div/form/div/div/button
+2023-07-11 17:34:38,448 test_ui_task.py[line:82] INFO 上传文件：ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.20230227.test.tar
+2023-07-11 17:34:39,490 test_ui_task.py[line:49] INFO 点击元素：//*[@id='app']/div/section/section/section/main/span/div[2]/div/div[2]/div/div[3]/span/button[2]
+2023-07-11 17:34:49,512 test_ui_task.py[line:93] INFO 断言结果：<re.Match object; span=(46732, 46798), match='ai_paas_edge_core_conver_010000_v2.0.14.caad8f9f.>

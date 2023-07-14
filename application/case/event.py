@@ -13,12 +13,13 @@ log = db["log"]
 uiCase = db["uiCase"]
 
 
+# 新增事件
 class Add(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         data["lastModifiedTime"] = str(datetime.now())
-        data["lastModifiedBy"] = "admin"
+        data["lastModifiedBy"] = login_authority.user_data["data"]["account"]
         data_id = collection.insert_one(data).inserted_id
         if data_id is not None:
             log.insert_one(
@@ -41,6 +42,7 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑事件
 class Edit(Resource):
     @token_auth
     def post(self):
@@ -49,8 +51,9 @@ class Edit(Resource):
                                        {"$set": {"abilityModelId": data["abilityModelId"],
                                                  "eventName": data["eventName"], "step": data["step"],
                                                  "desc": data["desc"],
-                                                 "lastModifiedTime": str(datetime.now()), "lastModifiedBy": "admin"}})
-        count = result.modified_count  # 影响的数据条数
+                                                 "lastModifiedTime": str(datetime.now()), "lastModifiedBy": login_authority.user_data["data"]["account"]}})
+        # 影响的数据条数
+        count = result.modified_count
         if count > 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
@@ -72,10 +75,12 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除事件
 class Delete(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
+        # 如何该事件id能在UI用例中找到，表明正在使用，删除失败
         used_in_uiCase = uiCase.find_one({"eventStep.eventId": data['id']})
         if used_in_uiCase:
             log.insert_one(
@@ -111,6 +116,7 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 获取某个事件的信息
 class Get(Resource):
     @token_auth
     def post(self):
@@ -123,6 +129,7 @@ class Get(Resource):
         return dict(code=1, messages="获取信息失败")
 
 
+# 获取事件列表
 class Getlist(Resource):
     @token_auth
     def post(self):
@@ -139,8 +146,10 @@ class Getlist(Resource):
             else:
                 query["abilityModelId"] = abilityModelId
         if eventName:
-            query["eventName"] = {"$regex": eventName, "$options": "i"}  # 模糊查询，匹配区分大小写
-        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
+            # 模糊查询，匹配区分大小写
+            query["eventName"] = {"$regex": eventName, "$options": "i"}
+        # 跳过前N条记录，限制只展示pagesize条记录
+        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)
         data = [{"id": str(result["_id"]), "abilityModelId": result["abilityModelId"], "eventName": result["eventName"],
                  "step": result["step"], "desc": result["desc"],
                  "lastModifiedTime": result["lastModifiedTime"], "lastModifiedBy": result["lastModifiedBy"]
@@ -157,6 +166,7 @@ class Getlist(Resource):
         return dict(code=0, message="操作成功", data=response_data)
 
 
+# 在UI用例的事件下拉框
 class dropDown(Resource):
     @token_auth
     def post(self):
@@ -170,8 +180,7 @@ class dropDown(Resource):
             else:
                 query["abilityModelId"] = abilityModelId
         results = collection.find(query)
-        data = [{"id": str(result["_id"]), "eventName": result["eventName"]
-                 } for result in results]
+        data = [{"id": str(result["_id"]), "eventName": result["eventName"]} for result in results]
         return dict(code=0, message="操作成功", data=data)
 
 

@@ -1,8 +1,8 @@
-getToken = "http://10.1.40.163:48091/oauth/token"
-checkToken = "http://10.1.40.163:48091/oauth/check_token"
-user_info = "http://10.1.40.163:48091/oauth/user_info"
-getCode = "http://10.1.40.163:48091/oauth/authorize"
-logout = "http://10.1.40.163:48091/oauth/logout"
+getToken = "http://10.1.40.163:48091/app/oauth/token"
+checkToken = "http://10.1.40.163:48091/app/oauth/check_token"
+user_info = "http://10.1.40.163:48091/app/oauth/user_info"
+getCode = "http://10.1.40.163:48091/app/oauth/authorize"
+logout = "http://10.1.40.163:48091/app/oauth/logout"
 clientId = "AYTyeeYSCR4OzE1E"
 clientSecret = "5072612a524d00048cf354b860ec1780f22aa25a"
 

@@ -14,8 +14,10 @@ collection = db["taskResult"]
 taskResult = Blueprint("taskResult", __name__, url_prefix="/api/v1/result")
 api = Api(taskResult)
 log = db["log"]
+site = db["site"]
 
 
+# 删除报告，同时删除对应目录下的报告文件
 class Delete(Resource):
     @token_auth
     def post(self):
@@ -54,42 +56,30 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 获取报告列表
 class Getlist(Resource):
     @token_auth
     def post(self):
-        count = collection.count_documents({})
-        # 如果记录数大于400，则删除100条记录
-        if count > 400:
-            docs_to_delete = collection.find({}, limit=100)
-            for doc in docs_to_delete:
-                result1 = collection.find_one({"_id": doc['_id']})
-                url = result1['allureUrl']
-                start_index = url.find("allure-report-")
-                end_index = url.find("/", start_index)
-                report_name = url[start_index:end_index]
-                folder_path = 'application/report/'
-                file_list = os.listdir(folder_path)
-                if report_name in file_list:
-                    shutil.rmtree(os.path.join(folder_path, report_name))
-                collection.delete_one({'_id': doc['_id']})
-
         page = request.json.get("page")
         pageSize = request.json.get("pageSize")
         taskType = request.json.get("taskType")
         taskName = request.json.get("taskName")
-        webSiteId = request.json.get("webSiteId")
+        webSiteName = request.json.get("webSiteName")
         result = request.json.get("result")
         query = {}
         if taskType:
             query["taskType"] = taskType
         if taskName:
-            query["taskName"] = {"$regex": taskName, "$options": "i"}  # 模糊查询，匹配区分大小写
-        if webSiteId:
-            query["webSiteId"] = webSiteId
+            # 模糊查询，匹配区分大小写
+            query["taskName"] = {"$regex": taskName, "$options": "i"}
+        if webSiteName:
+            query["webSiteName"] = webSiteName
+            query["webSiteName"] = site.find_one({"_id": ObjectId(query["webSiteName"])})["webSiteIp"]
         if result:
             query["result"] = result
+        # 跳过前N条记录，限制只展示pagesize条记录
         results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize).sort(
-            [("_id", -1)])  # 跳过前N条记录，限制只展示pagesize条记录
+            [("_id", -1)])
         data = [{"id": str(result["_id"]), "taskType": result["taskType"], "taskName": result["taskName"],
                  "webSiteName": result["webSiteName"], "allureUrl": result["allureUrl"],
                  "testResult": result["testResult"],

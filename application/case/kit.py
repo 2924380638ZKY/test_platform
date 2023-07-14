@@ -17,6 +17,7 @@ interfaceCase = db["interfaceCase"]
 uiCase = db["uiCase"]
 
 
+# 新增套件
 class Add(Resource):
     @token_auth
     def post(self):
@@ -44,16 +45,16 @@ class Add(Resource):
         return dict(code=1, messages="新增失败")
 
 
+# 编辑套件
 class Edit(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         result = collection.update_one({"_id": ObjectId(data["id"])},
-                                       {"$set": {"kitName": data["kitName"], "kitType": data["kitType"],
-                                                 "desc": data["desc"]
-                                                 }})
-        count = result.modified_count  # 影响的数据条数
-        if count > 0:
+                                       {"$set": {"kitName": data["kitName"], "kitType": data["kitType"], "desc": data["desc"]}})
+        # 影响的数据条数
+        count = result.modified_count
+        if count >= 0:
             log.insert_one(
                 {"optUserId": login_authority.user_data["data"]["userId"],
                  "optUserName": login_authority.user_data["data"]["username"],
@@ -74,10 +75,12 @@ class Edit(Resource):
         return dict(code=1, messages="编辑失败")
 
 
+# 删除套件
 class Delete(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
+        # 判断这个套件有没有被任务使用，有的话，删除失败
         used_in_task = task.find_one({"kitId": data["id"]})
         if used_in_task:
             log.insert_one(
@@ -113,6 +116,7 @@ class Delete(Resource):
         return dict(code=1, messages="删除失败")
 
 
+# 获取某个套件的信息
 class Get(Resource):
     @token_auth
     def post(self):
@@ -125,6 +129,7 @@ class Get(Resource):
         return dict(code=1, messages="获取信息失败")
 
 
+# 获取套件列表
 class Getlist(Resource):
     @token_auth
     def post(self):
@@ -134,7 +139,8 @@ class Getlist(Resource):
         query = {}
         if kitType:
             query["kitType"] = kitType
-        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)  # 跳过前N条记录，限制只展示pagesize条记录
+        # 跳过前N条记录，限制只展示pagesize条记录
+        results = collection.find(query).skip((page - 1) * pageSize).limit(pageSize)
         data = [{"id": str(result["_id"]), "kitName": result["kitName"], "desc": result["desc"],
                  "kitType": result["kitType"]
                  } for result in results]
@@ -150,13 +156,11 @@ class Getlist(Resource):
         return dict(code=0, message="操作成功", data=response_data)
 
 
+# 添加用例到套件里
 class addCase(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
-        # idlist = []
-        # for x in data["caseList"]:
-        #     idlist.append(x["id"])
         result = collection.find_one({"_id": ObjectId(data["id"])})
         if result is not None:
             collection.update_one({"_id": ObjectId(data["id"])},
@@ -181,6 +185,7 @@ class addCase(Resource):
         return dict(code=1, messages="添加失败")
 
 
+# 维护套件时左边的所有用例，按功能用例，接口用例，UI用例进行分类
 class allCase(Resource):
     @token_auth
     def post(self):
@@ -236,30 +241,15 @@ class allCase(Resource):
             return dict(code=1, message="输入数据有误")
 
 
+# 维护套件时右边的已经选择的用例
 class chooseCase(Resource):
     @token_auth
     def post(self):
         data = request.get_json()
         result = collection.find_one({"_id": ObjectId(data["id"])})
-        # case = {}
         if result is not None:
             case = result["caseList"]
             return dict(code=0, data=case)
-            # if result["kitType"] == 3:
-            #     if len(result["caseList"]) != 0:
-            #         for x in result["caseList"]:
-            #             print(x)
-            #             result1 = interfaceCase.find_one({"_id": ObjectId(x)})
-            #             case["id"] = x
-            #             case["useToken"] = result1["useToken"]
-            #             case["abilityModelId"] = result1["abilityModelId"]
-            #             case["interfaceId"] = result1["interfaceId"]
-            #             case["interfaceName"] = result1["interfaceName"]
-            #             case["priority"] = result1["priority"]
-            #             case["testDataType"] = result1["testDataType"]
-            #             case["json"] = result1["json"]
-            #             case["expectResult"] = result1["expectResult"]
-            #             case["extractFields"] = result1["extractFields"]
         else:
             return dict(code=1, message="id错误")
 
