@@ -115,7 +115,7 @@ class Delete(Resource):
 
 # 获取功能用例列表
 class Getlist(Resource):
-    @token_auth
+    # @token_auth
     def post(self):
         page = request.json.get("page")
         pageSize = request.json.get("pageSize")
@@ -158,7 +158,7 @@ class Getlist(Resource):
 
 # 导入功能用例
 class Import(Resource):
-    @token_auth
+    # @token_auth
     def post(self):
         file = request.files["file"]
         # 获取用例数据和用例表名
